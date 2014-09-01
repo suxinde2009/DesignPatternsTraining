@@ -63,6 +63,12 @@
 		6FCCB915199C5AB2006B59DE /* StarbuzzCoffee.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCB914199C5AB2006B59DE /* StarbuzzCoffee.m */; };
 		6FCCB923199C84EE006B59DE /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCCB922199C84EE006B59DE /* libc++.dylib */; };
 		6FCCB925199C852A006B59DE /* libc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCCB924199C852A006B59DE /* libc.dylib */; };
+		6FF8C19519B498D20087294A /* AdapteeImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8C19419B498D20087294A /* AdapteeImpl.m */; };
+		6FF8C19619B498D20087294A /* AdapteeImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8C19419B498D20087294A /* AdapteeImpl.m */; };
+		6FF8C19919B499230087294A /* Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8C19819B499230087294A /* Adapter.m */; };
+		6FF8C19A19B499230087294A /* Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8C19819B499230087294A /* Adapter.m */; };
+		6FF8C19D19B4998F0087294A /* Adapter_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8C19C19B4998F0087294A /* Adapter_TestCase.m */; };
+		6FF8C19E19B4998F0087294A /* Adapter_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8C19C19B4998F0087294A /* Adapter_TestCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -175,6 +181,14 @@
 		6FCCB922199C84EE006B59DE /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		6FCCB924199C852A006B59DE /* libc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libc.dylib; path = usr/lib/libc.dylib; sourceTree = SDKROOT; };
 		6FD3CF6519A5A024005F9355 /* PreCompile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreCompile.h; sourceTree = "<group>"; };
+		6FF8C19119B497BC0087294A /* Adaptee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adaptee.h; sourceTree = "<group>"; };
+		6FF8C19219B498920087294A /* Target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target.h; sourceTree = "<group>"; };
+		6FF8C19319B498D20087294A /* AdapteeImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdapteeImpl.h; sourceTree = "<group>"; };
+		6FF8C19419B498D20087294A /* AdapteeImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdapteeImpl.m; sourceTree = "<group>"; };
+		6FF8C19719B499230087294A /* Adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adapter.h; sourceTree = "<group>"; };
+		6FF8C19819B499230087294A /* Adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adapter.m; sourceTree = "<group>"; };
+		6FF8C19B19B4998F0087294A /* Adapter_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adapter_TestCase.h; sourceTree = "<group>"; };
+		6FF8C19C19B4998F0087294A /* Adapter_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adapter_TestCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -345,6 +359,7 @@
 			isa = PBXGroup;
 			children = (
 				6FCCB917199C5AE3006B59DE /* TestCaseInterface.h */,
+				6FF8C18F19B497960087294A /* Adapter */,
 				6FB1D98D19B4753000C439DB /* Singleton */,
 				6FB1D97F19B4319100C439DB /* TemplateMethod */,
 				6FCCB8F4199C56A8006B59DE /* Decorator */,
@@ -418,6 +433,29 @@
 				6FCCB914199C5AB2006B59DE /* StarbuzzCoffee.m */,
 			);
 			path = Decorator;
+			sourceTree = "<group>";
+		};
+		6FF8C18F19B497960087294A /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				6FF8C19019B497960087294A /* CodeTemplate */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		6FF8C19019B497960087294A /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				6FF8C19119B497BC0087294A /* Adaptee.h */,
+				6FF8C19219B498920087294A /* Target.h */,
+				6FF8C19319B498D20087294A /* AdapteeImpl.h */,
+				6FF8C19419B498D20087294A /* AdapteeImpl.m */,
+				6FF8C19719B499230087294A /* Adapter.h */,
+				6FF8C19819B499230087294A /* Adapter.m */,
+				6FF8C19B19B4998F0087294A /* Adapter_TestCase.h */,
+				6FF8C19C19B4998F0087294A /* Adapter_TestCase.m */,
+			);
+			path = CodeTemplate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -521,6 +559,7 @@
 				6FCCB903199C5872006B59DE /* Espresso.m in Sources */,
 				6FCCB8FD199C57F4006B59DE /* DarkRoast.m in Sources */,
 				6FCCB8E8199C4C4B006B59DE /* FakeQuack.m in Sources */,
+				6FF8C19519B498D20087294A /* AdapteeImpl.m in Sources */,
 				6FCCB8EC199C4C4B006B59DE /* MallardDuck.m in Sources */,
 				6FCCB8F3199C4C4B006B59DE /* Squeak.m in Sources */,
 				6FCCB8EA199C4C4B006B59DE /* FlyRocketPowered.m in Sources */,
@@ -541,6 +580,7 @@
 				6FCCB915199C5AB2006B59DE /* StarbuzzCoffee.m in Sources */,
 				6FCCB900199C5852006B59DE /* Decaf.m in Sources */,
 				6F1AE227199B5CF600E0BA09 /* WeatherStation.m in Sources */,
+				6FF8C19D19B4998F0087294A /* Adapter_TestCase.m in Sources */,
 				6F1AE21E199B4A6B00E0BA09 /* WeatherData.m in Sources */,
 				6FB4E3D7199A443800F2F8AF /* AppDelegate.m in Sources */,
 				6FB1D99519B476DE00C439DB /* Singleton_TestCase.m in Sources */,
@@ -552,6 +592,7 @@
 				6FCCB8E9199C4C4B006B59DE /* FlyNoWay.m in Sources */,
 				6FCCB8EB199C4C4B006B59DE /* FlyWithWings.m in Sources */,
 				6FCCB8F7199C56CD006B59DE /* Beverage.m in Sources */,
+				6FF8C19919B499230087294A /* Adapter.m in Sources */,
 				6F1AE224199B546400E0BA09 /* StatisticsDisplay.m in Sources */,
 				6FB1D99119B4754000C439DB /* Singleton.m in Sources */,
 			);
@@ -566,6 +607,9 @@
 				6FB1D98819B4322600C439DB /* ConcreteClass_TemplateMethod.m in Sources */,
 				6FB4E3EC199A443800F2F8AF /* DesignPatternsPracticesTests.m in Sources */,
 				6FB1D98419B431B800C439DB /* AbstractClass_TemplateMethod.m in Sources */,
+				6FF8C19A19B499230087294A /* Adapter.m in Sources */,
+				6FF8C19E19B4998F0087294A /* Adapter_TestCase.m in Sources */,
+				6FF8C19619B498D20087294A /* AdapteeImpl.m in Sources */,
 				6FB1D99219B4754000C439DB /* Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

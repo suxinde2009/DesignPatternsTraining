@@ -1,16 +1,19 @@
 //
-//  Singleton.h
+//  Adapter.m
 //  DesignPatternsPractices
 //
 //  Created by Su XinDe on 14-9-1.
 //  Copyright (c) 2014年 Su XinDe. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Adapter.h"
 
-@interface Singleton : NSObject
+@implementation Adapter
 
-+ (instancetype)sharedInstance;
-- (void)operate;
+- (void)request
+{
+    [self specificRequest];
+    NSLog(@"%s", __func__);
+}
 
 @end

@@ -1,16 +1,14 @@
 //
-//  Singleton.h
+//  Adapter.h
 //  DesignPatternsPractices
 //
 //  Created by Su XinDe on 14-9-1.
 //  Copyright (c) 2014年 Su XinDe. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "AdapteeImpl.h"
+#import "Target.h"
 
-@interface Singleton : NSObject
-
-+ (instancetype)sharedInstance;
-- (void)operate;
+@interface Adapter : AdapteeImpl <Target>
 
 @end

@@ -21,6 +21,8 @@
 
 #import "Singleton_TestCase.h"
 
+#import "Adapter_TestCase.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -44,8 +46,10 @@
 //    [TemplateMethod_TestCase mainTest];
     
     // 单例模式
-    [Singleton_TestCase mainTest];
+//    [Singleton_TestCase mainTest];
     
+    // 适配器模式
+    [Adapter_TestCase mainTest];
     
     [self.window makeKeyAndVisible];
     return YES;

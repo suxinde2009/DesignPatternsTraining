@@ -1,5 +1,5 @@
 //
-//  Singleton_Testcases.h
+//  Adapter_TestCase.h
 //  DesignPatternsPractices
 //
 //  Created by Su XinDe on 14-9-1.
@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Singleton.h"
 #import "TestCaseInterface.h"
 
-@interface Singleton_TestCase : NSObject <TestCaseInterface>
+#import "Adapter.h"
+#import "Target.h"
+
+@interface Adapter_TestCase : NSObject <TestCaseInterface>
 
 @end
