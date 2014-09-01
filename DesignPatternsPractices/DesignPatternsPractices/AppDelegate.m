@@ -19,6 +19,8 @@
 
 #import "TemplateMethod_TestCase.h"
 
+#import "Singleton_TestCase.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -39,8 +41,10 @@
 //    [DecoratorCPPTestCase mainTest];
     
     // 模版方法
-    [TemplateMethod_TestCase mainTest];
+//    [TemplateMethod_TestCase mainTest];
     
+    // 单例模式
+    [Singleton_TestCase mainTest];
     
     
     [self.window makeKeyAndVisible];

@@ -20,6 +20,10 @@
 		6FB1D98819B4322600C439DB /* ConcreteClass_TemplateMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB1D98619B4322600C439DB /* ConcreteClass_TemplateMethod.m */; };
 		6FB1D98B19B4328300C439DB /* TemplateMethod_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB1D98A19B4328300C439DB /* TemplateMethod_TestCase.m */; };
 		6FB1D98C19B4328300C439DB /* TemplateMethod_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB1D98A19B4328300C439DB /* TemplateMethod_TestCase.m */; };
+		6FB1D99119B4754000C439DB /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB1D99019B4754000C439DB /* Singleton.m */; };
+		6FB1D99219B4754000C439DB /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB1D99019B4754000C439DB /* Singleton.m */; };
+		6FB1D99519B476DE00C439DB /* Singleton_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB1D99419B476DE00C439DB /* Singleton_TestCase.m */; };
+		6FB1D99619B476DE00C439DB /* Singleton_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB1D99419B476DE00C439DB /* Singleton_TestCase.m */; };
 		6FB4E3C7199A443800F2F8AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB4E3C6199A443800F2F8AF /* Foundation.framework */; };
 		6FB4E3C9199A443800F2F8AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB4E3C8199A443800F2F8AF /* CoreGraphics.framework */; };
 		6FB4E3CB199A443800F2F8AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB4E3CA199A443800F2F8AF /* UIKit.framework */; };
@@ -95,6 +99,10 @@
 		6FB1D98619B4322600C439DB /* ConcreteClass_TemplateMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteClass_TemplateMethod.m; sourceTree = "<group>"; };
 		6FB1D98919B4328300C439DB /* TemplateMethod_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateMethod_TestCase.h; sourceTree = "<group>"; };
 		6FB1D98A19B4328300C439DB /* TemplateMethod_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateMethod_TestCase.m; sourceTree = "<group>"; };
+		6FB1D98F19B4754000C439DB /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		6FB1D99019B4754000C439DB /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		6FB1D99319B476DE00C439DB /* Singleton_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton_TestCase.h; sourceTree = "<group>"; };
+		6FB1D99419B476DE00C439DB /* Singleton_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton_TestCase.m; sourceTree = "<group>"; };
 		6FB4E3C3199A443800F2F8AF /* DesignPatternsPractices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatternsPractices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB4E3C6199A443800F2F8AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6FB4E3C8199A443800F2F8AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -240,6 +248,25 @@
 			path = CodeTemplate;
 			sourceTree = "<group>";
 		};
+		6FB1D98D19B4753000C439DB /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				6FB1D98E19B4753000C439DB /* CodeTemplate */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		6FB1D98E19B4753000C439DB /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				6FB1D98F19B4754000C439DB /* Singleton.h */,
+				6FB1D99019B4754000C439DB /* Singleton.m */,
+				6FB1D99319B476DE00C439DB /* Singleton_TestCase.h */,
+				6FB1D99419B476DE00C439DB /* Singleton_TestCase.m */,
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
 		6FB4E3BA199A443800F2F8AF = {
 			isa = PBXGroup;
 			children = (
@@ -318,6 +345,7 @@
 			isa = PBXGroup;
 			children = (
 				6FCCB917199C5AE3006B59DE /* TestCaseInterface.h */,
+				6FB1D98D19B4753000C439DB /* Singleton */,
 				6FB1D97F19B4319100C439DB /* TemplateMethod */,
 				6FCCB8F4199C56A8006B59DE /* Decorator */,
 				6FCCB8C7199C4C4B006B59DE /* Strategy */,
@@ -515,6 +543,7 @@
 				6F1AE227199B5CF600E0BA09 /* WeatherStation.m in Sources */,
 				6F1AE21E199B4A6B00E0BA09 /* WeatherData.m in Sources */,
 				6FB4E3D7199A443800F2F8AF /* AppDelegate.m in Sources */,
+				6FB1D99519B476DE00C439DB /* Singleton_TestCase.m in Sources */,
 				6FCCB8FA199C5787006B59DE /* CondimentDecorator.m in Sources */,
 				6F1AE22A199B5D0A00E0BA09 /* WeatherStationHeatIndex.m in Sources */,
 				6FB4E3D3199A443800F2F8AF /* main.m in Sources */,
@@ -524,6 +553,7 @@
 				6FCCB8EB199C4C4B006B59DE /* FlyWithWings.m in Sources */,
 				6FCCB8F7199C56CD006B59DE /* Beverage.m in Sources */,
 				6F1AE224199B546400E0BA09 /* StatisticsDisplay.m in Sources */,
+				6FB1D99119B4754000C439DB /* Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,9 +562,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FB1D98C19B4328300C439DB /* TemplateMethod_TestCase.m in Sources */,
+				6FB1D99619B476DE00C439DB /* Singleton_TestCase.m in Sources */,
 				6FB1D98819B4322600C439DB /* ConcreteClass_TemplateMethod.m in Sources */,
 				6FB4E3EC199A443800F2F8AF /* DesignPatternsPracticesTests.m in Sources */,
 				6FB1D98419B431B800C439DB /* AbstractClass_TemplateMethod.m in Sources */,
+				6FB1D99219B4754000C439DB /* Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
