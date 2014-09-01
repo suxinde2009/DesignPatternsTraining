@@ -3,7 +3,7 @@ DesignPatterns_iOS
 
 Personal scribble demos while learning design patterns.
 
-==================
+------------------
 
  # 设计模式主要分三个类型:创建型、结构型和行为型。
  
