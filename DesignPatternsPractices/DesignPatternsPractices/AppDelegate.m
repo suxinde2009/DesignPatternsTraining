@@ -17,6 +17,8 @@
 
 //#import "DecoratorCPPTestCase.h"
 
+#import "TemplateMethod_TestCase.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -26,7 +28,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     // 策略模式
-    [MiniDuckSimulator mainTest];
+//    [MiniDuckSimulator mainTest];
     
     // 观察者模式
 //    [WeatherStation mainTest];
@@ -36,7 +38,8 @@
 //    [StarbuzzCoffee mainTest];
 //    [DecoratorCPPTestCase mainTest];
     
-    
+    // 模版方法
+    [TemplateMethod_TestCase mainTest];
     
     
     
