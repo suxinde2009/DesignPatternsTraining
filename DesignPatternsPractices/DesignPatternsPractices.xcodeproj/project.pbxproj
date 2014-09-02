@@ -93,6 +93,8 @@
 		1FBF63A519B63D0F001C34B8 /* ConcreteClass_TemplateMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF634D19B63D0F001C34B8 /* ConcreteClass_TemplateMethod.m */; };
 		1FBF63A619B63D0F001C34B8 /* TemplateMethod_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF634F19B63D0F001C34B8 /* TemplateMethod_TestCase.m */; };
 		1FBF63A719B63D0F001C34B8 /* TemplateMethod_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF634F19B63D0F001C34B8 /* TemplateMethod_TestCase.m */; };
+		1FBF63AA19B63DB1001C34B8 /* A.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF63A919B63DB1001C34B8 /* A.m */; };
+		1FBF63AB19B63DB1001C34B8 /* A.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF63A919B63DB1001C34B8 /* A.m */; };
 		6FB4E3C7199A443800F2F8AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB4E3C6199A443800F2F8AF /* Foundation.framework */; };
 		6FB4E3C9199A443800F2F8AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB4E3C8199A443800F2F8AF /* CoreGraphics.framework */; };
 		6FB4E3CB199A443800F2F8AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB4E3CA199A443800F2F8AF /* UIKit.framework */; };
@@ -213,6 +215,8 @@
 		1FBF634D19B63D0F001C34B8 /* ConcreteClass_TemplateMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteClass_TemplateMethod.m; sourceTree = "<group>"; };
 		1FBF634E19B63D0F001C34B8 /* TemplateMethod_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateMethod_TestCase.h; sourceTree = "<group>"; };
 		1FBF634F19B63D0F001C34B8 /* TemplateMethod_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateMethod_TestCase.m; sourceTree = "<group>"; };
+		1FBF63A819B63DB1001C34B8 /* A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A.h; sourceTree = "<group>"; };
+		1FBF63A919B63DB1001C34B8 /* A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A.m; sourceTree = "<group>"; };
 		6FB4E3C3199A443800F2F8AF /* DesignPatternsPractices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatternsPractices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB4E3C6199A443800F2F8AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6FB4E3C8199A443800F2F8AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -272,6 +276,8 @@
 		1FBF62C619B63D0F001C34B8 /* CodeTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1FBF63A819B63DB1001C34B8 /* A.h */,
+				1FBF63A919B63DB1001C34B8 /* A.m */,
 			);
 			path = CodeTemplate;
 			sourceTree = "<group>";
@@ -932,6 +938,7 @@
 				6FB4E3D7199A443800F2F8AF /* AppDelegate.m in Sources */,
 				1FBF635419B63D0F001C34B8 /* Adapter.m in Sources */,
 				1FBF639A19B63D0F001C34B8 /* Quack.m in Sources */,
+				1FBF63AA19B63DB1001C34B8 /* A.m in Sources */,
 				1FBF635219B63D0F001C34B8 /* AdapteeImpl.m in Sources */,
 				1FBF639619B63D0F001C34B8 /* ModelDuck.m in Sources */,
 				1FBF637619B63D0F001C34B8 /* ForecastDisplay.m in Sources */,
@@ -967,6 +974,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FBF63AB19B63DB1001C34B8 /* A.m in Sources */,
 				1FBF638B19B63D0F001C34B8 /* FakeQuack.m in Sources */,
 				1FBF638119B63D0F001C34B8 /* WeatherStationHeatIndex.m in Sources */,
 				1FBF637119B63D0F001C34B8 /* Decorator.cpp in Sources */,
