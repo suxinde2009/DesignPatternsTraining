@@ -217,9 +217,286 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FBF62A019B63A2D001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62A119B63A53001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62A219B63A62001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62A319B63ADE001C34B8 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF62A419B63ADE001C34B8 /* CodeTemplate */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		1FBF62A419B63ADE001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62A519B63AF3001C34B8 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF62A619B63AF3001C34B8 /* CodeTemplate */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		1FBF62A619B63AF3001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62A719B63AFE001C34B8 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF62A819B63AFE001C34B8 /* CodeTemplate */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		1FBF62A819B63AFE001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62A919B63B0F001C34B8 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF62AA19B63B0F001C34B8 /* CodeTemplate */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+		1FBF62AA19B63B0F001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62AB19B63B21001C34B8 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF62AC19B63B21001C34B8 /* CodeTemplate */,
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
+		1FBF62AC19B63B21001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62AD19B63B3A001C34B8 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF62AE19B63B3A001C34B8 /* CodeTemplate */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		1FBF62AE19B63B3A001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62AF19B63B45001C34B8 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF62B019B63B45001C34B8 /* CodeTemplate */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		1FBF62B019B63B45001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62B119B63B74001C34B8 /* ChainOfResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF62B219B63B74001C34B8 /* CodeTemplate */,
+			);
+			path = ChainOfResponsibility;
+			sourceTree = "<group>";
+		};
+		1FBF62B219B63B74001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62B319B63B81001C34B8 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF62B419B63B81001C34B8 /* CodeTemplate */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		1FBF62B419B63B81001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62B519B63BA0001C34B8 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF62B619B63BA0001C34B8 /* CodeTemplate */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		1FBF62B619B63BA0001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62B719B63BB2001C34B8 /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF62B819B63BB2001C34B8 /* CodeTemplate */,
+			);
+			path = Interpreter;
+			sourceTree = "<group>";
+		};
+		1FBF62B819B63BB2001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62B919B63BC4001C34B8 /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF62BA19B63BC4001C34B8 /* CodeTemplate */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		1FBF62BA19B63BC4001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62BB19B63BE0001C34B8 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF62BC19B63BE0001C34B8 /* CodeTemplate */,
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
+		1FBF62BC19B63BE0001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62BD19B63BEF001C34B8 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF62BE19B63BEF001C34B8 /* CodeTemplate */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		1FBF62BE19B63BEF001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62BF19B63BFD001C34B8 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF62C019B63BFD001C34B8 /* CodeTemplate */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		1FBF62C019B63BFD001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62C119B63C21001C34B8 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF62C219B63C21001C34B8 /* CodeTemplate */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		1FBF62C219B63C21001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
+		1FBF62C319B63C2F001C34B8 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF62C419B63C2F001C34B8 /* CodeTemplate */,
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		1FBF62C419B63C2F001C34B8 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
 		6F1AE20C199B411D00E0BA09 /* Observer */ = {
 			isa = PBXGroup;
 			children = (
+				1FBF62A219B63A62001C34B8 /* CodeTemplate */,
 				6F1AE20D199B415300E0BA09 /* Observer.h */,
 				6F1AE210199B421000E0BA09 /* Subject.h */,
 				6F1AE213199B428600E0BA09 /* DisplayElement.h */,
@@ -359,6 +636,23 @@
 			isa = PBXGroup;
 			children = (
 				6FCCB917199C5AE3006B59DE /* TestCaseInterface.h */,
+				1FBF62C319B63C2F001C34B8 /* Flyweight */,
+				1FBF62C119B63C21001C34B8 /* Bridge */,
+				1FBF62BF19B63BFD001C34B8 /* Proxy */,
+				1FBF62BD19B63BEF001C34B8 /* Facade */,
+				1FBF62BB19B63BE0001C34B8 /* Composite */,
+				1FBF62B919B63BC4001C34B8 /* Memento */,
+				1FBF62B719B63BB2001C34B8 /* Interpreter */,
+				1FBF62B519B63BA0001C34B8 /* Visitor */,
+				1FBF62B319B63B81001C34B8 /* Mediator */,
+				1FBF62B119B63B74001C34B8 /* ChainOfResponsibility */,
+				1FBF62AF19B63B45001C34B8 /* State */,
+				1FBF62AD19B63B3A001C34B8 /* Command */,
+				1FBF62AB19B63B21001C34B8 /* Iterator */,
+				1FBF62A919B63B0F001C34B8 /* Prototype */,
+				1FBF62A719B63AFE001C34B8 /* Builder */,
+				1FBF62A519B63AF3001C34B8 /* FactoryMethod */,
+				1FBF62A319B63ADE001C34B8 /* AbstractFactory */,
 				6FF8C18F19B497960087294A /* Adapter */,
 				6FB1D98D19B4753000C439DB /* Singleton */,
 				6FB1D97F19B4319100C439DB /* TemplateMethod */,
@@ -372,6 +666,7 @@
 		6FCCB8C7199C4C4B006B59DE /* Strategy */ = {
 			isa = PBXGroup;
 			children = (
+				1FBF62A119B63A53001C34B8 /* CodeTemplate */,
 				6FCCB8C8199C4C4B006B59DE /* DecoyDuck.h */,
 				6FCCB8C9199C4C4B006B59DE /* DecoyDuck.m */,
 				6FCCB8CA199C4C4B006B59DE /* Duck.h */,
@@ -409,6 +704,7 @@
 		6FCCB8F4199C56A8006B59DE /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
+				1FBF62A019B63A2D001C34B8 /* CodeTemplate */,
 				6FCCB8F5199C56CD006B59DE /* Beverage.h */,
 				6FCCB8F6199C56CD006B59DE /* Beverage.m */,
 				6FCCB8F8199C5787006B59DE /* CondimentDecorator.h */,
