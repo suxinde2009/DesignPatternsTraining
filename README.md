@@ -10,6 +10,8 @@ Personal scribble demos while learning design patterns.
 #### 创建型 <br/>
 ##### 一、Singleton，单例模式 <br/>
 保证一个类只有一个实例，并提供一个访问它的全局访问点 <br/>
+![image1](https://raw.github.com/suxinde2009/DesignPatterns_iOS/master/Graphs/UML-Singleton.PNG)
+
 ##### 二、Abstract Factory，抽象工厂 <br/>
 提供一个创建一系列相关或相互依赖对象的接口，而无须指定它们的具体类。<br/>
 ##### 三、Factory Method，工厂方法  <br/>
