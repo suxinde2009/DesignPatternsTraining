@@ -109,6 +109,8 @@
 		6FB4E3EC199A443800F2F8AF /* DesignPatternsPracticesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4E3EB199A443800F2F8AF /* DesignPatternsPracticesTests.m */; };
 		6FCCB923199C84EE006B59DE /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCCB922199C84EE006B59DE /* libc++.dylib */; };
 		6FCCB925199C852A006B59DE /* libc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCCB924199C852A006B59DE /* libc.dylib */; };
+		6FF75E8C19B7397B0049AEBA /* Observable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF75E8A19B7397B0049AEBA /* Observable.m */; };
+		6FF75E8D19B7397B0049AEBA /* Observable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF75E8A19B7397B0049AEBA /* Observable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -237,6 +239,9 @@
 		6FCCB922199C84EE006B59DE /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		6FCCB924199C852A006B59DE /* libc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libc.dylib; path = usr/lib/libc.dylib; sourceTree = SDKROOT; };
 		6FD3CF6519A5A024005F9355 /* PreCompile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreCompile.h; sourceTree = "<group>"; };
+		6FF75E8919B7397B0049AEBA /* Observable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observable.h; sourceTree = "<group>"; };
+		6FF75E8A19B7397B0049AEBA /* Observable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observable.m; sourceTree = "<group>"; };
+		6FF75E8B19B7397B0049AEBA /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -546,7 +551,7 @@
 		1FBF630919B63D0F001C34B8 /* Observer */ = {
 			isa = PBXGroup;
 			children = (
-				1FBF630A19B63D0F001C34B8 /* CodeTemplate */,
+				6FF75E8819B7397B0049AEBA /* CodeTemplate */,
 				1FBF630B19B63D0F001C34B8 /* CurrentConditionsDisplay.h */,
 				1FBF630C19B63D0F001C34B8 /* CurrentConditionsDisplay.m */,
 				1FBF630D19B63D0F001C34B8 /* DisplayElement.h */,
@@ -566,13 +571,6 @@
 				1FBF631B19B63D0F001C34B8 /* WeatherStationHeatIndex.m */,
 			);
 			path = Observer;
-			sourceTree = "<group>";
-		};
-		1FBF630A19B63D0F001C34B8 /* CodeTemplate */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CodeTemplate;
 			sourceTree = "<group>";
 		};
 		1FBF631C19B63D0F001C34B8 /* Prototype */ = {
@@ -826,6 +824,16 @@
 			path = DesignPatterns;
 			sourceTree = "<group>";
 		};
+		6FF75E8819B7397B0049AEBA /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				6FF75E8919B7397B0049AEBA /* Observable.h */,
+				6FF75E8A19B7397B0049AEBA /* Observable.m */,
+				6FF75E8B19B7397B0049AEBA /* Observer.h */,
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -967,6 +975,7 @@
 				1FBF636619B63D0F001C34B8 /* Mocha.m in Sources */,
 				1FBF638C19B63D0F001C34B8 /* FlyNoWay.m in Sources */,
 				1FBF637219B63D0F001C34B8 /* DecoratorCPPTestCase.mm in Sources */,
+				6FF75E8C19B7397B0049AEBA /* Observable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -978,6 +987,7 @@
 				1FBF638B19B63D0F001C34B8 /* FakeQuack.m in Sources */,
 				1FBF638119B63D0F001C34B8 /* WeatherStationHeatIndex.m in Sources */,
 				1FBF637119B63D0F001C34B8 /* Decorator.cpp in Sources */,
+				6FF75E8D19B7397B0049AEBA /* Observable.m in Sources */,
 				1FBF636D19B63D0F001C34B8 /* Whip.m in Sources */,
 				1FBF639119B63D0F001C34B8 /* FlyWithWings.m in Sources */,
 				1FBF636F19B63D0F001C34B8 /* Component.cpp in Sources */,
