@@ -115,6 +115,7 @@ Personal scribble demos while learning design patterns.
 ![image1](https://raw.github.com/suxinde2009/DesignPatterns_iOS/master/Graphs/UML-Bridge.PNG)
 
 ##### 二十三、Flyweight，享元模式 <br/>
+运用共享技术有效的支持大量细粒度的对象。
 
 ![image1](https://raw.github.com/suxinde2009/DesignPatterns_iOS/master/Graphs/UML-Flyweight.PNG)
 
