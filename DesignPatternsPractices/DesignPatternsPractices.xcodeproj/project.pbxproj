@@ -109,6 +109,16 @@
 		6FB4E3EC199A443800F2F8AF /* DesignPatternsPracticesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4E3EB199A443800F2F8AF /* DesignPatternsPracticesTests.m */; };
 		6FCCB923199C84EE006B59DE /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCCB922199C84EE006B59DE /* libc++.dylib */; };
 		6FCCB925199C852A006B59DE /* libc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCCB924199C852A006B59DE /* libc.dylib */; };
+		6FCEB87019B84C0F007E6FA9 /* ChainOfResponsibility_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCEB86719B84C0F007E6FA9 /* ChainOfResponsibility_Template_TestCase.m */; };
+		6FCEB87119B84C0F007E6FA9 /* ChainOfResponsibility_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCEB86719B84C0F007E6FA9 /* ChainOfResponsibility_Template_TestCase.m */; };
+		6FCEB87219B84C0F007E6FA9 /* ConcreteHandler1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCEB86919B84C0F007E6FA9 /* ConcreteHandler1.m */; };
+		6FCEB87319B84C0F007E6FA9 /* ConcreteHandler1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCEB86919B84C0F007E6FA9 /* ConcreteHandler1.m */; };
+		6FCEB87419B84C0F007E6FA9 /* ConcreteHandler2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCEB86B19B84C0F007E6FA9 /* ConcreteHandler2.m */; };
+		6FCEB87519B84C0F007E6FA9 /* ConcreteHandler2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCEB86B19B84C0F007E6FA9 /* ConcreteHandler2.m */; };
+		6FCEB87619B84C0F007E6FA9 /* ConcreteHandler3.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCEB86D19B84C0F007E6FA9 /* ConcreteHandler3.m */; };
+		6FCEB87719B84C0F007E6FA9 /* ConcreteHandler3.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCEB86D19B84C0F007E6FA9 /* ConcreteHandler3.m */; };
+		6FCEB87819B84C0F007E6FA9 /* Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCEB86F19B84C0F007E6FA9 /* Handler.m */; };
+		6FCEB87919B84C0F007E6FA9 /* Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCEB86F19B84C0F007E6FA9 /* Handler.m */; };
 		6FF75E8C19B7397B0049AEBA /* Observable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF75E8A19B7397B0049AEBA /* Observable.m */; };
 		6FF75E8D19B7397B0049AEBA /* Observable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF75E8A19B7397B0049AEBA /* Observable.m */; };
 /* End PBXBuildFile section */
@@ -238,6 +248,16 @@
 		6FCCB917199C5AE3006B59DE /* TestCaseInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCaseInterface.h; sourceTree = "<group>"; };
 		6FCCB922199C84EE006B59DE /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		6FCCB924199C852A006B59DE /* libc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libc.dylib; path = usr/lib/libc.dylib; sourceTree = SDKROOT; };
+		6FCEB86619B84C0F007E6FA9 /* ChainOfResponsibility_Template_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainOfResponsibility_Template_TestCase.h; sourceTree = "<group>"; };
+		6FCEB86719B84C0F007E6FA9 /* ChainOfResponsibility_Template_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainOfResponsibility_Template_TestCase.m; sourceTree = "<group>"; };
+		6FCEB86819B84C0F007E6FA9 /* ConcreteHandler1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteHandler1.h; sourceTree = "<group>"; };
+		6FCEB86919B84C0F007E6FA9 /* ConcreteHandler1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteHandler1.m; sourceTree = "<group>"; };
+		6FCEB86A19B84C0F007E6FA9 /* ConcreteHandler2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteHandler2.h; sourceTree = "<group>"; };
+		6FCEB86B19B84C0F007E6FA9 /* ConcreteHandler2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteHandler2.m; sourceTree = "<group>"; };
+		6FCEB86C19B84C0F007E6FA9 /* ConcreteHandler3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteHandler3.h; sourceTree = "<group>"; };
+		6FCEB86D19B84C0F007E6FA9 /* ConcreteHandler3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteHandler3.m; sourceTree = "<group>"; };
+		6FCEB86E19B84C0F007E6FA9 /* Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Handler.h; sourceTree = "<group>"; };
+		6FCEB86F19B84C0F007E6FA9 /* Handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Handler.m; sourceTree = "<group>"; };
 		6FD3CF6519A5A024005F9355 /* PreCompile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreCompile.h; sourceTree = "<group>"; };
 		6FF75E8919B7397B0049AEBA /* Observable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observable.h; sourceTree = "<group>"; };
 		6FF75E8A19B7397B0049AEBA /* Observable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observable.m; sourceTree = "<group>"; };
@@ -334,21 +354,6 @@
 			sourceTree = "<group>";
 		};
 		1FBF62D419B63D0F001C34B8 /* CodeTemplate */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CodeTemplate;
-			sourceTree = "<group>";
-		};
-		1FBF62D519B63D0F001C34B8 /* ChainOfResponsibility */ = {
-			isa = PBXGroup;
-			children = (
-				1FBF62D619B63D0F001C34B8 /* CodeTemplate */,
-			);
-			path = ChainOfResponsibility;
-			sourceTree = "<group>";
-		};
-		1FBF62D619B63D0F001C34B8 /* CodeTemplate */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -796,11 +801,11 @@
 			isa = PBXGroup;
 			children = (
 				6FCCB917199C5AE3006B59DE /* TestCaseInterface.h */,
+				6FCEB85019B846F8007E6FA9 /* ChainOfResponsibility */,
 				1FBF62C519B63D0F001C34B8 /* AbstractFactory */,
 				1FBF62C719B63D0F001C34B8 /* Adapter */,
 				1FBF62D119B63D0F001C34B8 /* Bridge */,
 				1FBF62D319B63D0F001C34B8 /* Builder */,
-				1FBF62D519B63D0F001C34B8 /* ChainOfResponsibility */,
 				1FBF62D719B63D0F001C34B8 /* Command */,
 				1FBF62D919B63D0F001C34B8 /* Composite */,
 				1FBF62DB19B63D0F001C34B8 /* Decorator */,
@@ -822,6 +827,31 @@
 				1FBF635019B63D0F001C34B8 /* Visitor */,
 			);
 			path = DesignPatterns;
+			sourceTree = "<group>";
+		};
+		6FCEB85019B846F8007E6FA9 /* ChainOfResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+				6FCEB85119B846F8007E6FA9 /* CodeTemplate */,
+			);
+			path = ChainOfResponsibility;
+			sourceTree = "<group>";
+		};
+		6FCEB85119B846F8007E6FA9 /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				6FCEB86619B84C0F007E6FA9 /* ChainOfResponsibility_Template_TestCase.h */,
+				6FCEB86719B84C0F007E6FA9 /* ChainOfResponsibility_Template_TestCase.m */,
+				6FCEB86819B84C0F007E6FA9 /* ConcreteHandler1.h */,
+				6FCEB86919B84C0F007E6FA9 /* ConcreteHandler1.m */,
+				6FCEB86A19B84C0F007E6FA9 /* ConcreteHandler2.h */,
+				6FCEB86B19B84C0F007E6FA9 /* ConcreteHandler2.m */,
+				6FCEB86C19B84C0F007E6FA9 /* ConcreteHandler3.h */,
+				6FCEB86D19B84C0F007E6FA9 /* ConcreteHandler3.m */,
+				6FCEB86E19B84C0F007E6FA9 /* Handler.h */,
+				6FCEB86F19B84C0F007E6FA9 /* Handler.m */,
+			);
+			path = CodeTemplate;
 			sourceTree = "<group>";
 		};
 		6FF75E8819B7397B0049AEBA /* CodeTemplate */ = {
@@ -963,14 +993,19 @@
 				1FBF636C19B63D0F001C34B8 /* Whip.m in Sources */,
 				1FBF636A19B63D0F001C34B8 /* StarbuzzCoffee.m in Sources */,
 				1FBF637019B63D0F001C34B8 /* Decorator.cpp in Sources */,
+				6FCEB87019B84C0F007E6FA9 /* ChainOfResponsibility_Template_TestCase.m in Sources */,
 				1FBF638019B63D0F001C34B8 /* WeatherStationHeatIndex.m in Sources */,
+				6FCEB87619B84C0F007E6FA9 /* ConcreteHandler3.m in Sources */,
 				1FBF638619B63D0F001C34B8 /* DecoyDuck.m in Sources */,
+				6FCEB87819B84C0F007E6FA9 /* Handler.m in Sources */,
 				1FBF635E19B63D0F001C34B8 /* Decaf.m in Sources */,
 				1FBF638419B63D0F001C34B8 /* Singleton_TestCase.m in Sources */,
 				1FBF636019B63D0F001C34B8 /* Espresso.m in Sources */,
 				1FBF635A19B63D0F001C34B8 /* CondimentDecorator.m in Sources */,
+				6FCEB87219B84C0F007E6FA9 /* ConcreteHandler1.m in Sources */,
 				6FB4E3D3199A443800F2F8AF /* main.m in Sources */,
 				1FBF636E19B63D0F001C34B8 /* Component.cpp in Sources */,
+				6FCEB87419B84C0F007E6FA9 /* ConcreteHandler2.m in Sources */,
 				1FBF639C19B63D0F001C34B8 /* RedHeadDuck.m in Sources */,
 				1FBF636619B63D0F001C34B8 /* Mocha.m in Sources */,
 				1FBF638C19B63D0F001C34B8 /* FlyNoWay.m in Sources */,
@@ -983,12 +1018,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FCEB87119B84C0F007E6FA9 /* ChainOfResponsibility_Template_TestCase.m in Sources */,
 				1FBF63AB19B63DB1001C34B8 /* A.m in Sources */,
 				1FBF638B19B63D0F001C34B8 /* FakeQuack.m in Sources */,
 				1FBF638119B63D0F001C34B8 /* WeatherStationHeatIndex.m in Sources */,
 				1FBF637119B63D0F001C34B8 /* Decorator.cpp in Sources */,
 				6FF75E8D19B7397B0049AEBA /* Observable.m in Sources */,
 				1FBF636D19B63D0F001C34B8 /* Whip.m in Sources */,
+				6FCEB87519B84C0F007E6FA9 /* ConcreteHandler2.m in Sources */,
 				1FBF639119B63D0F001C34B8 /* FlyWithWings.m in Sources */,
 				1FBF636F19B63D0F001C34B8 /* Component.cpp in Sources */,
 				1FBF639919B63D0F001C34B8 /* MuteQuack.m in Sources */,
@@ -1011,6 +1048,7 @@
 				1FBF635B19B63D0F001C34B8 /* CondimentDecorator.m in Sources */,
 				1FBF639D19B63D0F001C34B8 /* RedHeadDuck.m in Sources */,
 				1FBF639F19B63D0F001C34B8 /* RubberDuck.m in Sources */,
+				6FCEB87919B84C0F007E6FA9 /* Handler.m in Sources */,
 				1FBF63A519B63D0F001C34B8 /* ConcreteClass_TemplateMethod.m in Sources */,
 				1FBF63A319B63D0F001C34B8 /* AbstractClass_TemplateMethod.m in Sources */,
 				1FBF636519B63D0F001C34B8 /* Milk.m in Sources */,
@@ -1029,6 +1067,8 @@
 				1FBF637B19B63D0F001C34B8 /* StatisticsDisplay.m in Sources */,
 				1FBF635319B63D0F001C34B8 /* AdapteeImpl.m in Sources */,
 				6FB4E3EC199A443800F2F8AF /* DesignPatternsPracticesTests.m in Sources */,
+				6FCEB87319B84C0F007E6FA9 /* ConcreteHandler1.m in Sources */,
+				6FCEB87719B84C0F007E6FA9 /* ConcreteHandler3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  Decorator.cpp
 //  DesignPatternsPractices
 //
-//  Created by p2pmsg on 14-8-14.
+//  Created by Su XinDe on 14-8-14.
 //  Copyright (c) 2014年 com.skyprayer. All rights reserved.
 //
 

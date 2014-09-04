@@ -23,6 +23,8 @@
 
 #import "Adapter_TestCase.h"
 
+#import "ChainOfResponsibility_Template_TestCase.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -49,7 +51,10 @@
 //    [Singleton_TestCase mainTest];
     
     // 适配器模式
-    [Adapter_TestCase mainTest];
+//    [Adapter_TestCase mainTest];
+    
+    // 责任链模式
+    [ChainOfResponsibility_Template_TestCase mainTest];
     
     [self.window makeKeyAndVisible];
     return YES;
