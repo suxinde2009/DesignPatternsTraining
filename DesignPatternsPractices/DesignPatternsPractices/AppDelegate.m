@@ -25,6 +25,8 @@
 
 #import "ChainOfResponsibility_Template_TestCase.h"
 
+#import "AbstractFactory_Template_TestCase.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -54,7 +56,10 @@
 //    [Adapter_TestCase mainTest];
     
     // 责任链模式
-    [ChainOfResponsibility_Template_TestCase mainTest];
+//    [ChainOfResponsibility_Template_TestCase mainTest];
+    
+    // 抽象工厂模式
+    [AbstractFactory_Template_TestCase mainTest];
     
     [self.window makeKeyAndVisible];
     return YES;
