@@ -1,5 +1,5 @@
 //
-//  Bridge_Template_TestCase.h
+//  Command_Template_TestCase.h
 //  DesignPatternsPractices
 //
 //  Created by su xinde on 14-9-6.
@@ -9,8 +9,11 @@
 #import <Foundation/Foundation.h>
 #import "TestCaseInterface.h"
 
-// http://www.dofactory.com/net/bridge-design-pattern
+#import "Receiver.h"
+#import "Command.h"
+#import "Invoker.h"
+#import "ConcreteCommand.h"
 
-@interface Bridge_Template_TestCase : NSObject <TestCaseInterface>
+@interface Command_Template_TestCase : NSObject <TestCaseInterface>
 
 @end

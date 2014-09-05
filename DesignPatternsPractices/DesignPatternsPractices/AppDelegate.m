@@ -29,6 +29,8 @@
 
 #import "Bridge_Template_TestCase.h"
 
+#import "Command_Template_TestCase.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -64,7 +66,10 @@
 //    [AbstractFactory_Template_TestCase mainTest];
     
     // 桥接模式
-    [Bridge_Template_TestCase mainTest];
+//    [Bridge_Template_TestCase mainTest];
+    
+    // 命令模式
+    [Command_Template_TestCase mainTest];
     
     [self.window makeKeyAndVisible];
     return YES;

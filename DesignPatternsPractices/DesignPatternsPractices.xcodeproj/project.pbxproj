@@ -39,6 +39,16 @@
 		1F6CD56B19BA275200C1CF84 /* ConcreteImplementorB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CD56919BA275200C1CF84 /* ConcreteImplementorB.m */; };
 		1F6CD56E19BA27D900C1CF84 /* Bridge_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CD56D19BA27D900C1CF84 /* Bridge_Template_TestCase.m */; };
 		1F6CD56F19BA27D900C1CF84 /* Bridge_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CD56D19BA27D900C1CF84 /* Bridge_Template_TestCase.m */; };
+		1F6CD57219BA36CA00C1CF84 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CD57119BA36CA00C1CF84 /* Command.m */; };
+		1F6CD57319BA36CA00C1CF84 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CD57119BA36CA00C1CF84 /* Command.m */; };
+		1F6CD57A19BA370300C1CF84 /* Receiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CD57919BA370300C1CF84 /* Receiver.m */; };
+		1F6CD57B19BA370300C1CF84 /* Receiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CD57919BA370300C1CF84 /* Receiver.m */; };
+		1F6CD58219BA375000C1CF84 /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CD58119BA375000C1CF84 /* Invoker.m */; };
+		1F6CD58319BA375000C1CF84 /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CD58119BA375000C1CF84 /* Invoker.m */; };
+		1F6CD58619BA391B00C1CF84 /* ConcreteCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CD58519BA391B00C1CF84 /* ConcreteCommand.m */; };
+		1F6CD58719BA391B00C1CF84 /* ConcreteCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CD58519BA391B00C1CF84 /* ConcreteCommand.m */; };
+		1F6CD58A19BA399E00C1CF84 /* Command_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CD58919BA399E00C1CF84 /* Command_Template_TestCase.m */; };
+		1F6CD58B19BA399E00C1CF84 /* Command_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CD58919BA399E00C1CF84 /* Command_Template_TestCase.m */; };
 		1FBF635219B63D0F001C34B8 /* AdapteeImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF62CB19B63D0F001C34B8 /* AdapteeImpl.m */; };
 		1FBF635319B63D0F001C34B8 /* AdapteeImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF62CB19B63D0F001C34B8 /* AdapteeImpl.m */; };
 		1FBF635419B63D0F001C34B8 /* Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF62CD19B63D0F001C34B8 /* Adapter.m */; };
@@ -198,6 +208,16 @@
 		1F6CD56919BA275200C1CF84 /* ConcreteImplementorB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteImplementorB.m; sourceTree = "<group>"; };
 		1F6CD56C19BA27D900C1CF84 /* Bridge_Template_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge_Template_TestCase.h; sourceTree = "<group>"; };
 		1F6CD56D19BA27D900C1CF84 /* Bridge_Template_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bridge_Template_TestCase.m; sourceTree = "<group>"; };
+		1F6CD57019BA36CA00C1CF84 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		1F6CD57119BA36CA00C1CF84 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		1F6CD57819BA370300C1CF84 /* Receiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receiver.h; sourceTree = "<group>"; };
+		1F6CD57919BA370300C1CF84 /* Receiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receiver.m; sourceTree = "<group>"; };
+		1F6CD58019BA375000C1CF84 /* Invoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		1F6CD58119BA375000C1CF84 /* Invoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
+		1F6CD58419BA391B00C1CF84 /* ConcreteCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteCommand.h; sourceTree = "<group>"; };
+		1F6CD58519BA391B00C1CF84 /* ConcreteCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteCommand.m; sourceTree = "<group>"; };
+		1F6CD58819BA399E00C1CF84 /* Command_Template_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command_Template_TestCase.h; sourceTree = "<group>"; };
+		1F6CD58919BA399E00C1CF84 /* Command_Template_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command_Template_TestCase.m; sourceTree = "<group>"; };
 		1FBF62C919B63D0F001C34B8 /* Adaptee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adaptee.h; sourceTree = "<group>"; };
 		1FBF62CA19B63D0F001C34B8 /* AdapteeImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdapteeImpl.h; sourceTree = "<group>"; };
 		1FBF62CB19B63D0F001C34B8 /* AdapteeImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdapteeImpl.m; sourceTree = "<group>"; };
@@ -467,6 +487,16 @@
 		1FBF62D819B63D0F001C34B8 /* CodeTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1F6CD57019BA36CA00C1CF84 /* Command.h */,
+				1F6CD57119BA36CA00C1CF84 /* Command.m */,
+				1F6CD58419BA391B00C1CF84 /* ConcreteCommand.h */,
+				1F6CD58519BA391B00C1CF84 /* ConcreteCommand.m */,
+				1F6CD57819BA370300C1CF84 /* Receiver.h */,
+				1F6CD57919BA370300C1CF84 /* Receiver.m */,
+				1F6CD58019BA375000C1CF84 /* Invoker.h */,
+				1F6CD58119BA375000C1CF84 /* Invoker.m */,
+				1F6CD58819BA399E00C1CF84 /* Command_Template_TestCase.h */,
+				1F6CD58919BA399E00C1CF84 /* Command_Template_TestCase.m */,
 			);
 			path = CodeTemplate;
 			sourceTree = "<group>";
@@ -1069,8 +1099,11 @@
 				1F6CD56219BA26E200C1CF84 /* RefinedAbstraction.m in Sources */,
 				1FBF639019B63D0F001C34B8 /* FlyWithWings.m in Sources */,
 				1FBF63A019B63D0F001C34B8 /* Squeak.m in Sources */,
+				1F6CD58619BA391B00C1CF84 /* ConcreteCommand.m in Sources */,
 				1FBF639819B63D0F001C34B8 /* MuteQuack.m in Sources */,
 				1FBF636819B63D0F001C34B8 /* Soy.m in Sources */,
+				1F6CD57219BA36CA00C1CF84 /* Command.m in Sources */,
+				1F6CD58A19BA399E00C1CF84 /* Command_Template_TestCase.m in Sources */,
 				1F5C0D7E19B8E22B00AC2872 /* AbstractProductB.m in Sources */,
 				1FBF63A419B63D0F001C34B8 /* ConcreteClass_TemplateMethod.m in Sources */,
 				1FBF637419B63D0F001C34B8 /* CurrentConditionsDisplay.m in Sources */,
@@ -1082,6 +1115,7 @@
 				1FBF639A19B63D0F001C34B8 /* Quack.m in Sources */,
 				1FBF63AA19B63DB1001C34B8 /* AbstractFactory.m in Sources */,
 				1FBF635219B63D0F001C34B8 /* AdapteeImpl.m in Sources */,
+				1F6CD57A19BA370300C1CF84 /* Receiver.m in Sources */,
 				1FBF639619B63D0F001C34B8 /* ModelDuck.m in Sources */,
 				1FBF637619B63D0F001C34B8 /* ForecastDisplay.m in Sources */,
 				1FBF637C19B63D0F001C34B8 /* WeatherData.m in Sources */,
@@ -1103,6 +1137,7 @@
 				1F5C0D8A19B8E38B00AC2872 /* ProductB1.m in Sources */,
 				1FBF637019B63D0F001C34B8 /* Decorator.cpp in Sources */,
 				6FCEB87019B84C0F007E6FA9 /* ChainOfResponsibility_Template_TestCase.m in Sources */,
+				1F6CD58219BA375000C1CF84 /* Invoker.m in Sources */,
 				1FBF638019B63D0F001C34B8 /* WeatherStationHeatIndex.m in Sources */,
 				6FCEB87619B84C0F007E6FA9 /* ConcreteHandler3.m in Sources */,
 				1FBF638619B63D0F001C34B8 /* DecoyDuck.m in Sources */,
@@ -1141,6 +1176,7 @@
 				1FBF636D19B63D0F001C34B8 /* Whip.m in Sources */,
 				1F6CD56719BA271900C1CF84 /* ConcreteImplementorA.m in Sources */,
 				6FCEB87519B84C0F007E6FA9 /* ConcreteHandler2.m in Sources */,
+				1F6CD57319BA36CA00C1CF84 /* Command.m in Sources */,
 				1FBF639119B63D0F001C34B8 /* FlyWithWings.m in Sources */,
 				1FBF636F19B63D0F001C34B8 /* Component.cpp in Sources */,
 				1FBF639919B63D0F001C34B8 /* MuteQuack.m in Sources */,
@@ -1168,8 +1204,12 @@
 				1FBF639719B63D0F001C34B8 /* ModelDuck.m in Sources */,
 				1F5C0D8719B8E36900AC2872 /* ProductA2.m in Sources */,
 				1FBF635519B63D0F001C34B8 /* Adapter.m in Sources */,
+				1F6CD58719BA391B00C1CF84 /* ConcreteCommand.m in Sources */,
 				1FBF635B19B63D0F001C34B8 /* CondimentDecorator.m in Sources */,
 				1FBF639D19B63D0F001C34B8 /* RedHeadDuck.m in Sources */,
+				1F6CD57B19BA370300C1CF84 /* Receiver.m in Sources */,
+				1F6CD58B19BA399E00C1CF84 /* Command_Template_TestCase.m in Sources */,
+				1F6CD58319BA375000C1CF84 /* Invoker.m in Sources */,
 				1FBF639F19B63D0F001C34B8 /* RubberDuck.m in Sources */,
 				1F6CD56319BA26E200C1CF84 /* RefinedAbstraction.m in Sources */,
 				6FCEB87919B84C0F007E6FA9 /* Handler.m in Sources */,
