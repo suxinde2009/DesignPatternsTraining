@@ -27,6 +27,8 @@
 
 #import "AbstractFactory_Template_TestCase.h"
 
+#import "Bridge_Template_TestCase.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -59,7 +61,10 @@
 //    [ChainOfResponsibility_Template_TestCase mainTest];
     
     // 抽象工厂模式
-    [AbstractFactory_Template_TestCase mainTest];
+//    [AbstractFactory_Template_TestCase mainTest];
+    
+    // 桥接模式
+    [Bridge_Template_TestCase mainTest];
     
     [self.window makeKeyAndVisible];
     return YES;
