@@ -31,6 +31,8 @@
 
 #import "Command_Template_TestCase.h"
 
+#import "Facade_Template_TestCase.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -69,7 +71,10 @@
 //    [Bridge_Template_TestCase mainTest];
     
     // 命令模式
-    [Command_Template_TestCase mainTest];
+//    [Command_Template_TestCase mainTest];
+    
+    // 外观模式
+    [Facade_Template_TestCase mainTest];
     
     [self.window makeKeyAndVisible];
     return YES;

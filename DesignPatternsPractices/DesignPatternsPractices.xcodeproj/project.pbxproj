@@ -137,6 +137,18 @@
 		1FBF63A719B63D0F001C34B8 /* TemplateMethod_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF634F19B63D0F001C34B8 /* TemplateMethod_TestCase.m */; };
 		1FBF63AA19B63DB1001C34B8 /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF63A919B63DB1001C34B8 /* AbstractFactory.m */; };
 		1FBF63AB19B63DB1001C34B8 /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF63A919B63DB1001C34B8 /* AbstractFactory.m */; };
+		1FD91E8D19BB981D00FBBDD5 /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD91E8C19BB981D00FBBDD5 /* Facade.m */; };
+		1FD91E8E19BB981D00FBBDD5 /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD91E8C19BB981D00FBBDD5 /* Facade.m */; };
+		1FD91E9119BB984800FBBDD5 /* SubSystemOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD91E9019BB984800FBBDD5 /* SubSystemOne.m */; };
+		1FD91E9219BB984800FBBDD5 /* SubSystemOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD91E9019BB984800FBBDD5 /* SubSystemOne.m */; };
+		1FD91E9519BB985900FBBDD5 /* SubSystemTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD91E9419BB985900FBBDD5 /* SubSystemTwo.m */; };
+		1FD91E9619BB985900FBBDD5 /* SubSystemTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD91E9419BB985900FBBDD5 /* SubSystemTwo.m */; };
+		1FD91E9919BB986500FBBDD5 /* SubSystemThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD91E9819BB986500FBBDD5 /* SubSystemThree.m */; };
+		1FD91E9A19BB986500FBBDD5 /* SubSystemThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD91E9819BB986500FBBDD5 /* SubSystemThree.m */; };
+		1FD91E9D19BB987100FBBDD5 /* SubSystemFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD91E9C19BB987100FBBDD5 /* SubSystemFour.m */; };
+		1FD91E9E19BB987100FBBDD5 /* SubSystemFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD91E9C19BB987100FBBDD5 /* SubSystemFour.m */; };
+		1FD91EA119BB9ACB00FBBDD5 /* Facade_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD91EA019BB9ACB00FBBDD5 /* Facade_Template_TestCase.m */; };
+		1FD91EA219BB9ACB00FBBDD5 /* Facade_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD91EA019BB9ACB00FBBDD5 /* Facade_Template_TestCase.m */; };
 		6FB4E3C7199A443800F2F8AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB4E3C6199A443800F2F8AF /* Foundation.framework */; };
 		6FB4E3C9199A443800F2F8AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB4E3C8199A443800F2F8AF /* CoreGraphics.framework */; };
 		6FB4E3CB199A443800F2F8AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB4E3CA199A443800F2F8AF /* UIKit.framework */; };
@@ -313,6 +325,18 @@
 		1FBF634F19B63D0F001C34B8 /* TemplateMethod_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateMethod_TestCase.m; sourceTree = "<group>"; };
 		1FBF63A819B63DB1001C34B8 /* AbstractFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
 		1FBF63A919B63DB1001C34B8 /* AbstractFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
+		1FD91E8B19BB981D00FBBDD5 /* Facade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facade.h; sourceTree = "<group>"; };
+		1FD91E8C19BB981D00FBBDD5 /* Facade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facade.m; sourceTree = "<group>"; };
+		1FD91E8F19BB984800FBBDD5 /* SubSystemOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubSystemOne.h; sourceTree = "<group>"; };
+		1FD91E9019BB984800FBBDD5 /* SubSystemOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubSystemOne.m; sourceTree = "<group>"; };
+		1FD91E9319BB985900FBBDD5 /* SubSystemTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubSystemTwo.h; sourceTree = "<group>"; };
+		1FD91E9419BB985900FBBDD5 /* SubSystemTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubSystemTwo.m; sourceTree = "<group>"; };
+		1FD91E9719BB986500FBBDD5 /* SubSystemThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubSystemThree.h; sourceTree = "<group>"; };
+		1FD91E9819BB986500FBBDD5 /* SubSystemThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubSystemThree.m; sourceTree = "<group>"; };
+		1FD91E9B19BB987100FBBDD5 /* SubSystemFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubSystemFour.h; sourceTree = "<group>"; };
+		1FD91E9C19BB987100FBBDD5 /* SubSystemFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubSystemFour.m; sourceTree = "<group>"; };
+		1FD91E9F19BB9ACB00FBBDD5 /* Facade_Template_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facade_Template_TestCase.h; sourceTree = "<group>"; };
+		1FD91EA019BB9ACB00FBBDD5 /* Facade_Template_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facade_Template_TestCase.m; sourceTree = "<group>"; };
 		6FB4E3C3199A443800F2F8AF /* DesignPatternsPractices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatternsPractices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB4E3C6199A443800F2F8AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6FB4E3C8199A443800F2F8AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -585,6 +609,18 @@
 		1FBF62FC19B63D0F001C34B8 /* CodeTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1FD91E8B19BB981D00FBBDD5 /* Facade.h */,
+				1FD91E8C19BB981D00FBBDD5 /* Facade.m */,
+				1FD91E8F19BB984800FBBDD5 /* SubSystemOne.h */,
+				1FD91E9019BB984800FBBDD5 /* SubSystemOne.m */,
+				1FD91E9319BB985900FBBDD5 /* SubSystemTwo.h */,
+				1FD91E9419BB985900FBBDD5 /* SubSystemTwo.m */,
+				1FD91E9719BB986500FBBDD5 /* SubSystemThree.h */,
+				1FD91E9819BB986500FBBDD5 /* SubSystemThree.m */,
+				1FD91E9B19BB987100FBBDD5 /* SubSystemFour.h */,
+				1FD91E9C19BB987100FBBDD5 /* SubSystemFour.m */,
+				1FD91E9F19BB9ACB00FBBDD5 /* Facade_Template_TestCase.h */,
+				1FD91EA019BB9ACB00FBBDD5 /* Facade_Template_TestCase.m */,
 			);
 			path = CodeTemplate;
 			sourceTree = "<group>";
@@ -1099,6 +1135,8 @@
 				1F6CD56219BA26E200C1CF84 /* RefinedAbstraction.m in Sources */,
 				1FBF639019B63D0F001C34B8 /* FlyWithWings.m in Sources */,
 				1FBF63A019B63D0F001C34B8 /* Squeak.m in Sources */,
+				1FD91E9519BB985900FBBDD5 /* SubSystemTwo.m in Sources */,
+				1FD91EA119BB9ACB00FBBDD5 /* Facade_Template_TestCase.m in Sources */,
 				1F6CD58619BA391B00C1CF84 /* ConcreteCommand.m in Sources */,
 				1FBF639819B63D0F001C34B8 /* MuteQuack.m in Sources */,
 				1FBF636819B63D0F001C34B8 /* Soy.m in Sources */,
@@ -1120,11 +1158,14 @@
 				1FBF637619B63D0F001C34B8 /* ForecastDisplay.m in Sources */,
 				1FBF637C19B63D0F001C34B8 /* WeatherData.m in Sources */,
 				1FBF636419B63D0F001C34B8 /* Milk.m in Sources */,
+				1FD91E8D19BB981D00FBBDD5 /* Facade.m in Sources */,
+				1FD91E9D19BB987100FBBDD5 /* SubSystemFour.m in Sources */,
 				1F5C0D7A19B8E21D00AC2872 /* AbstractProductA.m in Sources */,
 				1FBF63A219B63D0F001C34B8 /* AbstractClass_TemplateMethod.m in Sources */,
 				1FBF635819B63D0F001C34B8 /* Beverage.m in Sources */,
 				1FBF637E19B63D0F001C34B8 /* WeatherStation.m in Sources */,
 				1FBF637A19B63D0F001C34B8 /* StatisticsDisplay.m in Sources */,
+				1FD91E9919BB986500FBBDD5 /* SubSystemThree.m in Sources */,
 				1FBF639419B63D0F001C34B8 /* MiniDuckSimulator.m in Sources */,
 				1FBF638E19B63D0F001C34B8 /* FlyRocketPowered.m in Sources */,
 				1F5C0D9219B8E4E100AC2872 /* Client.m in Sources */,
@@ -1136,6 +1177,7 @@
 				1FBF636A19B63D0F001C34B8 /* StarbuzzCoffee.m in Sources */,
 				1F5C0D8A19B8E38B00AC2872 /* ProductB1.m in Sources */,
 				1FBF637019B63D0F001C34B8 /* Decorator.cpp in Sources */,
+				1FD91E9119BB984800FBBDD5 /* SubSystemOne.m in Sources */,
 				6FCEB87019B84C0F007E6FA9 /* ChainOfResponsibility_Template_TestCase.m in Sources */,
 				1F6CD58219BA375000C1CF84 /* Invoker.m in Sources */,
 				1FBF638019B63D0F001C34B8 /* WeatherStationHeatIndex.m in Sources */,
@@ -1169,12 +1211,14 @@
 				1FBF63AB19B63DB1001C34B8 /* AbstractFactory.m in Sources */,
 				1F6CD56B19BA275200C1CF84 /* ConcreteImplementorB.m in Sources */,
 				1FBF638B19B63D0F001C34B8 /* FakeQuack.m in Sources */,
+				1FD91E9219BB984800FBBDD5 /* SubSystemOne.m in Sources */,
 				1FBF638119B63D0F001C34B8 /* WeatherStationHeatIndex.m in Sources */,
 				1FBF637119B63D0F001C34B8 /* Decorator.cpp in Sources */,
 				6FF75E8D19B7397B0049AEBA /* Observable.m in Sources */,
 				1F5C0D9B19B8E6AF00AC2872 /* ConcreteFactory2.m in Sources */,
 				1FBF636D19B63D0F001C34B8 /* Whip.m in Sources */,
 				1F6CD56719BA271900C1CF84 /* ConcreteImplementorA.m in Sources */,
+				1FD91E8E19BB981D00FBBDD5 /* Facade.m in Sources */,
 				6FCEB87519B84C0F007E6FA9 /* ConcreteHandler2.m in Sources */,
 				1F6CD57319BA36CA00C1CF84 /* Command.m in Sources */,
 				1FBF639119B63D0F001C34B8 /* FlyWithWings.m in Sources */,
@@ -1185,6 +1229,7 @@
 				1F6CD56F19BA27D900C1CF84 /* Bridge_Template_TestCase.m in Sources */,
 				1FBF63A719B63D0F001C34B8 /* TemplateMethod_TestCase.m in Sources */,
 				1F5C0D8319B8E33E00AC2872 /* ProductA1.m in Sources */,
+				1FD91E9619BB985900FBBDD5 /* SubSystemTwo.m in Sources */,
 				1FBF638519B63D0F001C34B8 /* Singleton_TestCase.m in Sources */,
 				1FBF639B19B63D0F001C34B8 /* Quack.m in Sources */,
 				1FBF639319B63D0F001C34B8 /* MallardDuck.m in Sources */,
@@ -1205,6 +1250,7 @@
 				1F5C0D8719B8E36900AC2872 /* ProductA2.m in Sources */,
 				1FBF635519B63D0F001C34B8 /* Adapter.m in Sources */,
 				1F6CD58719BA391B00C1CF84 /* ConcreteCommand.m in Sources */,
+				1FD91EA219BB9ACB00FBBDD5 /* Facade_Template_TestCase.m in Sources */,
 				1FBF635B19B63D0F001C34B8 /* CondimentDecorator.m in Sources */,
 				1FBF639D19B63D0F001C34B8 /* RedHeadDuck.m in Sources */,
 				1F6CD57B19BA370300C1CF84 /* Receiver.m in Sources */,
@@ -1222,6 +1268,7 @@
 				1FBF636919B63D0F001C34B8 /* Soy.m in Sources */,
 				1FBF638F19B63D0F001C34B8 /* FlyRocketPowered.m in Sources */,
 				1F5C0D7B19B8E21D00AC2872 /* AbstractProductA.m in Sources */,
+				1FD91E9E19BB987100FBBDD5 /* SubSystemFour.m in Sources */,
 				1FBF636B19B63D0F001C34B8 /* StarbuzzCoffee.m in Sources */,
 				1F5C0D9F19B8E70700AC2872 /* AbstractFactory_Template_TestCase.m in Sources */,
 				1FBF637919B63D0F001C34B8 /* HeatIndexDisplay.m in Sources */,
@@ -1232,6 +1279,7 @@
 				1FBF635F19B63D0F001C34B8 /* Decaf.m in Sources */,
 				1F5C0D7F19B8E22B00AC2872 /* AbstractProductB.m in Sources */,
 				1FBF637B19B63D0F001C34B8 /* StatisticsDisplay.m in Sources */,
+				1FD91E9A19BB986500FBBDD5 /* SubSystemThree.m in Sources */,
 				1FBF635319B63D0F001C34B8 /* AdapteeImpl.m in Sources */,
 				1F6CD55B19BA25FF00C1CF84 /* Abstraction.m in Sources */,
 				6FB4E3EC199A443800F2F8AF /* DesignPatternsPracticesTests.m in Sources */,
