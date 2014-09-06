@@ -33,6 +33,8 @@
 
 #import "Facade_Template_TestCase.h"
 
+#import "Proxy_Template_TestCase.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -74,7 +76,10 @@
 //    [Command_Template_TestCase mainTest];
     
     // 外观模式
-    [Facade_Template_TestCase mainTest];
+//    [Facade_Template_TestCase mainTest];
+    
+    // 代理模式
+    [Proxy_Template_TestCase mainTest];
     
     [self.window makeKeyAndVisible];
     return YES;
