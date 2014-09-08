@@ -14,12 +14,12 @@
 
 - (id<AbstractProductA>)createProductA
 {
-    return [[ProductA1 alloc] init];
+    return [[[ProductA1 alloc] init] autorelease];
 }
 
 - (id<AbstractProductB>)createProductB
 {
-    return [[ProductB1 alloc] init];
+    return [[[ProductB1 alloc] init] autorelease];
 }
 
 @end

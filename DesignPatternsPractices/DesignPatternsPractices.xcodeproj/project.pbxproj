@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1BCBA719BDF1580060C231 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBA619BDF1580060C231 /* Builder.m */; };
+		1F1BCBA819BDF1580060C231 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBA619BDF1580060C231 /* Builder.m */; };
+		1F1BCBAB19BDF19A0060C231 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBAA19BDF19A0060C231 /* Product.m */; };
+		1F1BCBAC19BDF19A0060C231 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBAA19BDF19A0060C231 /* Product.m */; };
+		1F1BCBAF19BDF3E20060C231 /* ConcreteBuilder1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBAE19BDF3E20060C231 /* ConcreteBuilder1.m */; };
+		1F1BCBB019BDF3E20060C231 /* ConcreteBuilder1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBAE19BDF3E20060C231 /* ConcreteBuilder1.m */; };
+		1F1BCBB319BDF3F00060C231 /* ConcreteBuilder2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBB219BDF3F00060C231 /* ConcreteBuilder2.m */; };
+		1F1BCBB419BDF3F00060C231 /* ConcreteBuilder2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBB219BDF3F00060C231 /* ConcreteBuilder2.m */; };
+		1F1BCBB719BDF5100060C231 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBB619BDF5100060C231 /* Director.m */; };
+		1F1BCBB819BDF5100060C231 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBB619BDF5100060C231 /* Director.m */; };
+		1F1BCBBB19BDF57B0060C231 /* Builder_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBBA19BDF57B0060C231 /* Builder_Template_TestCase.m */; };
+		1F1BCBBC19BDF57B0060C231 /* Builder_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBBA19BDF57B0060C231 /* Builder_Template_TestCase.m */; };
 		1F5C0D7A19B8E21D00AC2872 /* AbstractProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C0D7919B8E21D00AC2872 /* AbstractProductA.m */; };
 		1F5C0D7B19B8E21D00AC2872 /* AbstractProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C0D7919B8E21D00AC2872 /* AbstractProductA.m */; };
 		1F5C0D7E19B8E22B00AC2872 /* AbstractProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C0D7D19B8E22B00AC2872 /* AbstractProductB.m */; };
@@ -196,6 +208,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F1BCBA519BDF1580060C231 /* Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
+		1F1BCBA619BDF1580060C231 /* Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
+		1F1BCBA919BDF19A0060C231 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		1F1BCBAA19BDF19A0060C231 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		1F1BCBAD19BDF3E20060C231 /* ConcreteBuilder1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteBuilder1.h; sourceTree = "<group>"; };
+		1F1BCBAE19BDF3E20060C231 /* ConcreteBuilder1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteBuilder1.m; sourceTree = "<group>"; };
+		1F1BCBB119BDF3F00060C231 /* ConcreteBuilder2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteBuilder2.h; sourceTree = "<group>"; };
+		1F1BCBB219BDF3F00060C231 /* ConcreteBuilder2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteBuilder2.m; sourceTree = "<group>"; };
+		1F1BCBB519BDF5100060C231 /* Director.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Director.h; sourceTree = "<group>"; };
+		1F1BCBB619BDF5100060C231 /* Director.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
+		1F1BCBB919BDF57B0060C231 /* Builder_Template_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Builder_Template_TestCase.h; sourceTree = "<group>"; };
+		1F1BCBBA19BDF57B0060C231 /* Builder_Template_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Builder_Template_TestCase.m; sourceTree = "<group>"; };
 		1F5C0D7819B8E21D00AC2872 /* AbstractProductA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProductA.h; sourceTree = "<group>"; };
 		1F5C0D7919B8E21D00AC2872 /* AbstractProductA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractProductA.m; sourceTree = "<group>"; };
 		1F5C0D7C19B8E22B00AC2872 /* AbstractProductB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProductB.h; sourceTree = "<group>"; };
@@ -512,6 +536,18 @@
 		1FBF62D419B63D0F001C34B8 /* CodeTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1F1BCBA519BDF1580060C231 /* Builder.h */,
+				1F1BCBA619BDF1580060C231 /* Builder.m */,
+				1F1BCBAD19BDF3E20060C231 /* ConcreteBuilder1.h */,
+				1F1BCBAE19BDF3E20060C231 /* ConcreteBuilder1.m */,
+				1F1BCBB119BDF3F00060C231 /* ConcreteBuilder2.h */,
+				1F1BCBB219BDF3F00060C231 /* ConcreteBuilder2.m */,
+				1F1BCBA919BDF19A0060C231 /* Product.h */,
+				1F1BCBAA19BDF19A0060C231 /* Product.m */,
+				1F1BCBB519BDF5100060C231 /* Director.h */,
+				1F1BCBB619BDF5100060C231 /* Director.m */,
+				1F1BCBB919BDF57B0060C231 /* Builder_Template_TestCase.h */,
+				1F1BCBBA19BDF57B0060C231 /* Builder_Template_TestCase.m */,
 			);
 			path = CodeTemplate;
 			sourceTree = "<group>";
@@ -1154,6 +1190,7 @@
 				1F6CD56A19BA275200C1CF84 /* ConcreteImplementorB.m in Sources */,
 				1FBF636219B63D0F001C34B8 /* HouseBlend.m in Sources */,
 				1FBF639E19B63D0F001C34B8 /* RubberDuck.m in Sources */,
+				1F1BCBB719BDF5100060C231 /* Director.m in Sources */,
 				1FBF635619B63D0F001C34B8 /* Adapter_TestCase.m in Sources */,
 				1FBF635C19B63D0F001C34B8 /* DarkRoast.m in Sources */,
 				1F6CD56219BA26E200C1CF84 /* RefinedAbstraction.m in Sources */,
@@ -1169,11 +1206,13 @@
 				1F5C0D7E19B8E22B00AC2872 /* AbstractProductB.m in Sources */,
 				1FBF63A419B63D0F001C34B8 /* ConcreteClass_TemplateMethod.m in Sources */,
 				1FBF637419B63D0F001C34B8 /* CurrentConditionsDisplay.m in Sources */,
+				1F1BCBAF19BDF3E20060C231 /* ConcreteBuilder1.m in Sources */,
 				1FBF637819B63D0F001C34B8 /* HeatIndexDisplay.m in Sources */,
 				1FBF63A619B63D0F001C34B8 /* TemplateMethod_TestCase.m in Sources */,
 				6FB4E3D7199A443800F2F8AF /* AppDelegate.m in Sources */,
 				1FBF635419B63D0F001C34B8 /* Adapter.m in Sources */,
 				1F6CD56619BA271900C1CF84 /* ConcreteImplementorA.m in Sources */,
+				1F1BCBB319BDF3F00060C231 /* ConcreteBuilder2.m in Sources */,
 				1FBF639A19B63D0F001C34B8 /* Quack.m in Sources */,
 				1FBF63AA19B63DB1001C34B8 /* AbstractFactory.m in Sources */,
 				1FBF635219B63D0F001C34B8 /* AdapteeImpl.m in Sources */,
@@ -1184,6 +1223,7 @@
 				1FBF636419B63D0F001C34B8 /* Milk.m in Sources */,
 				1FD91E8D19BB981D00FBBDD5 /* Facade.m in Sources */,
 				1FD91E9D19BB987100FBBDD5 /* SubSystemFour.m in Sources */,
+				1F1BCBA719BDF1580060C231 /* Builder.m in Sources */,
 				1F5C0D7A19B8E21D00AC2872 /* AbstractProductA.m in Sources */,
 				1FBF63A219B63D0F001C34B8 /* AbstractClass_TemplateMethod.m in Sources */,
 				1FBF635819B63D0F001C34B8 /* Beverage.m in Sources */,
@@ -1196,10 +1236,12 @@
 				1F5C0D9219B8E4E100AC2872 /* Client.m in Sources */,
 				1FBF638219B63D0F001C34B8 /* Singleton.m in Sources */,
 				1F5C0D9E19B8E70700AC2872 /* AbstractFactory_Template_TestCase.m in Sources */,
+				1F1BCBBB19BDF57B0060C231 /* Builder_Template_TestCase.m in Sources */,
 				1F6CD55A19BA25FF00C1CF84 /* Abstraction.m in Sources */,
 				1FBF638A19B63D0F001C34B8 /* FakeQuack.m in Sources */,
 				1FBF636C19B63D0F001C34B8 /* Whip.m in Sources */,
 				1FBF636A19B63D0F001C34B8 /* StarbuzzCoffee.m in Sources */,
+				1F1BCBAB19BDF19A0060C231 /* Product.m in Sources */,
 				1FD91EAD19BBA02D00FBBDD5 /* Proxy.m in Sources */,
 				1F5C0D8A19B8E38B00AC2872 /* ProductB1.m in Sources */,
 				1FBF637019B63D0F001C34B8 /* Decorator.cpp in Sources */,
@@ -1238,6 +1280,7 @@
 				1FD91EAE19BBA02D00FBBDD5 /* Proxy.m in Sources */,
 				6FCEB87119B84C0F007E6FA9 /* ChainOfResponsibility_Template_TestCase.m in Sources */,
 				1FBF63AB19B63DB1001C34B8 /* AbstractFactory.m in Sources */,
+				1F1BCBBC19BDF57B0060C231 /* Builder_Template_TestCase.m in Sources */,
 				1F6CD56B19BA275200C1CF84 /* ConcreteImplementorB.m in Sources */,
 				1FBF638B19B63D0F001C34B8 /* FakeQuack.m in Sources */,
 				1FD91E9219BB984800FBBDD5 /* SubSystemOne.m in Sources */,
@@ -1256,6 +1299,7 @@
 				1FBF639919B63D0F001C34B8 /* MuteQuack.m in Sources */,
 				1FBF638D19B63D0F001C34B8 /* FlyNoWay.m in Sources */,
 				1FD91EAA19BB9FF200FBBDD5 /* Proxy_RealSubject.m in Sources */,
+				1F1BCBAC19BDF19A0060C231 /* Product.m in Sources */,
 				1F6CD55F19BA261500C1CF84 /* Implementor.m in Sources */,
 				1F6CD56F19BA27D900C1CF84 /* Bridge_Template_TestCase.m in Sources */,
 				1FBF63A719B63D0F001C34B8 /* TemplateMethod_TestCase.m in Sources */,
@@ -1268,6 +1312,7 @@
 				1FBF639519B63D0F001C34B8 /* MiniDuckSimulator.m in Sources */,
 				1FBF638919B63D0F001C34B8 /* Duck.m in Sources */,
 				1FBF636319B63D0F001C34B8 /* HouseBlend.m in Sources */,
+				1F1BCBB819BDF5100060C231 /* Director.m in Sources */,
 				1FBF635D19B63D0F001C34B8 /* DarkRoast.m in Sources */,
 				1F5C0D9319B8E4E100AC2872 /* Client.m in Sources */,
 				1F5C0D8F19B8E4A300AC2872 /* ProductB2.m in Sources */,
@@ -1275,6 +1320,7 @@
 				1FBF637519B63D0F001C34B8 /* CurrentConditionsDisplay.m in Sources */,
 				1FBF637D19B63D0F001C34B8 /* WeatherData.m in Sources */,
 				1F5C0D9719B8E61800AC2872 /* ConcreteFactory1.m in Sources */,
+				1F1BCBB419BDF3F00060C231 /* ConcreteBuilder2.m in Sources */,
 				1FBF636119B63D0F001C34B8 /* Espresso.m in Sources */,
 				1F5C0D8B19B8E38B00AC2872 /* ProductB1.m in Sources */,
 				1FBF639719B63D0F001C34B8 /* ModelDuck.m in Sources */,
@@ -1290,7 +1336,9 @@
 				1FBF639F19B63D0F001C34B8 /* RubberDuck.m in Sources */,
 				1F6CD56319BA26E200C1CF84 /* RefinedAbstraction.m in Sources */,
 				6FCEB87919B84C0F007E6FA9 /* Handler.m in Sources */,
+				1F1BCBB019BDF3E20060C231 /* ConcreteBuilder1.m in Sources */,
 				1FBF63A519B63D0F001C34B8 /* ConcreteClass_TemplateMethod.m in Sources */,
+				1F1BCBA819BDF1580060C231 /* Builder.m in Sources */,
 				1FBF63A319B63D0F001C34B8 /* AbstractClass_TemplateMethod.m in Sources */,
 				1FBF636519B63D0F001C34B8 /* Milk.m in Sources */,
 				1FBF638319B63D0F001C34B8 /* Singleton.m in Sources */,

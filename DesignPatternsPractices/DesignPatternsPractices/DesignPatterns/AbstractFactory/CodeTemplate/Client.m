@@ -10,11 +10,18 @@
 
 @implementation Client
 
+- (void)dealloc
+{
+    [mAbstractProductA release];
+    [mAbstractProductB release];
+    [super dealloc];
+}
+
 - (id)initWithFactory:(id<AbstractFactory>)factory
 {
     if (self = [super init]) {
-        mAbstractProductA = [factory createProductA];
-        mAbstractProductB = [factory createProductB];
+        mAbstractProductA = [[factory createProductA] retain];
+        mAbstractProductB = [[factory createProductB] retain];
     }
     return self;
 }

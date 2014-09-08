@@ -35,6 +35,8 @@
 
 #import "Proxy_Template_TestCase.h"
 
+#import "Builder_Template_TestCase.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -79,7 +81,10 @@
 //    [Facade_Template_TestCase mainTest];
     
     // 代理模式
-    [Proxy_Template_TestCase mainTest];
+//    [Proxy_Template_TestCase mainTest];
+    
+    // 建造者模式
+    [Builder_Template_TestCase mainTest];
     
     [self.window makeKeyAndVisible];
     return YES;

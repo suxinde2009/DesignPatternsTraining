@@ -22,10 +22,10 @@
 - (void)dealloc
 {
     if (mRealSubject) {
-        //[mRealSubject release];
+        [mRealSubject release];
         mRealSubject = nil;
     }
-    //[super dealloc];
+    [super dealloc];
 }
 
 @end
