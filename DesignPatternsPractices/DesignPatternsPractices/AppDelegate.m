@@ -39,6 +39,8 @@
 
 #import "Composite_Template_TestCase.h"
 
+#import "Decorator_Template_TestCase.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -57,6 +59,7 @@
     // 装饰者模式
 //    [StarbuzzCoffee mainTest];
 //    [DecoratorCPPTestCase mainTest];
+    [Decorator_Template_TestCase mainTest];
     
     // 模版方法
 //    [TemplateMethod_TestCase mainTest];
@@ -89,7 +92,7 @@
 //    [Builder_Template_TestCase mainTest];
     
     // 组合模式
-    [Composite_Template_TestCase mainTest];
+//    [Composite_Template_TestCase mainTest];
     
     //
     

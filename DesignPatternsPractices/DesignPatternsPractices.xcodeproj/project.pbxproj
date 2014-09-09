@@ -19,6 +19,18 @@
 		1F1BCBB819BDF5100060C231 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBB619BDF5100060C231 /* Director.m */; };
 		1F1BCBBB19BDF57B0060C231 /* Builder_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBBA19BDF57B0060C231 /* Builder_Template_TestCase.m */; };
 		1F1BCBBC19BDF57B0060C231 /* Builder_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBBA19BDF57B0060C231 /* Builder_Template_TestCase.m */; };
+		1F5B472A19BF53D90046F510 /* Decorator_Component.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B472919BF53D90046F510 /* Decorator_Component.m */; };
+		1F5B472B19BF53D90046F510 /* Decorator_Component.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B472919BF53D90046F510 /* Decorator_Component.m */; };
+		1F5B472E19BF53F20046F510 /* Decorator_ConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B472D19BF53F20046F510 /* Decorator_ConcreteComponent.m */; };
+		1F5B472F19BF53F20046F510 /* Decorator_ConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B472D19BF53F20046F510 /* Decorator_ConcreteComponent.m */; };
+		1F5B473219BF540A0046F510 /* ConcreteDecoratorA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B473119BF540A0046F510 /* ConcreteDecoratorA.m */; };
+		1F5B473319BF540A0046F510 /* ConcreteDecoratorA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B473119BF540A0046F510 /* ConcreteDecoratorA.m */; };
+		1F5B473619BF54130046F510 /* ConcreteDecoratorB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B473519BF54130046F510 /* ConcreteDecoratorB.m */; };
+		1F5B473719BF54130046F510 /* ConcreteDecoratorB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B473519BF54130046F510 /* ConcreteDecoratorB.m */; };
+		1F5B473A19BF542F0046F510 /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B473919BF542F0046F510 /* Decorator.m */; };
+		1F5B473B19BF542F0046F510 /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B473919BF542F0046F510 /* Decorator.m */; };
+		1F5B473E19BF55EC0046F510 /* Decorator_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B473D19BF55EC0046F510 /* Decorator_Template_TestCase.m */; };
+		1F5B473F19BF55EC0046F510 /* Decorator_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B473D19BF55EC0046F510 /* Decorator_Template_TestCase.m */; };
 		1F5C0D7A19B8E21D00AC2872 /* AbstractProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C0D7919B8E21D00AC2872 /* AbstractProductA.m */; };
 		1F5C0D7B19B8E21D00AC2872 /* AbstractProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C0D7919B8E21D00AC2872 /* AbstractProductA.m */; };
 		1F5C0D7E19B8E22B00AC2872 /* AbstractProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C0D7D19B8E22B00AC2872 /* AbstractProductB.m */; };
@@ -228,6 +240,18 @@
 		1F1BCBB619BDF5100060C231 /* Director.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
 		1F1BCBB919BDF57B0060C231 /* Builder_Template_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Builder_Template_TestCase.h; sourceTree = "<group>"; };
 		1F1BCBBA19BDF57B0060C231 /* Builder_Template_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Builder_Template_TestCase.m; sourceTree = "<group>"; };
+		1F5B472819BF53D90046F510 /* Decorator_Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator_Component.h; sourceTree = "<group>"; };
+		1F5B472919BF53D90046F510 /* Decorator_Component.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decorator_Component.m; sourceTree = "<group>"; };
+		1F5B472C19BF53F20046F510 /* Decorator_ConcreteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator_ConcreteComponent.h; sourceTree = "<group>"; };
+		1F5B472D19BF53F20046F510 /* Decorator_ConcreteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decorator_ConcreteComponent.m; sourceTree = "<group>"; };
+		1F5B473019BF540A0046F510 /* ConcreteDecoratorA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteDecoratorA.h; sourceTree = "<group>"; };
+		1F5B473119BF540A0046F510 /* ConcreteDecoratorA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteDecoratorA.m; sourceTree = "<group>"; };
+		1F5B473419BF54130046F510 /* ConcreteDecoratorB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteDecoratorB.h; sourceTree = "<group>"; };
+		1F5B473519BF54130046F510 /* ConcreteDecoratorB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteDecoratorB.m; sourceTree = "<group>"; };
+		1F5B473819BF542F0046F510 /* Decorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator.h; sourceTree = "<group>"; };
+		1F5B473919BF542F0046F510 /* Decorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decorator.m; sourceTree = "<group>"; };
+		1F5B473C19BF55EC0046F510 /* Decorator_Template_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator_Template_TestCase.h; sourceTree = "<group>"; };
+		1F5B473D19BF55EC0046F510 /* Decorator_Template_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decorator_Template_TestCase.m; sourceTree = "<group>"; };
 		1F5C0D7819B8E21D00AC2872 /* AbstractProductA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProductA.h; sourceTree = "<group>"; };
 		1F5C0D7919B8E21D00AC2872 /* AbstractProductA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractProductA.m; sourceTree = "<group>"; };
 		1F5C0D7C19B8E22B00AC2872 /* AbstractProductB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProductB.h; sourceTree = "<group>"; };
@@ -619,9 +643,9 @@
 		1FBF62DB19B63D0F001C34B8 /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
+				1FBF62DE19B63D0F001C34B8 /* CodeTemplate */,
 				1FBF62DC19B63D0F001C34B8 /* Beverage.h */,
 				1FBF62DD19B63D0F001C34B8 /* Beverage.m */,
-				1FBF62DE19B63D0F001C34B8 /* CodeTemplate */,
 				1FBF62DF19B63D0F001C34B8 /* CondimentDecorator.h */,
 				1FBF62E019B63D0F001C34B8 /* CondimentDecorator.m */,
 				1FBF62E119B63D0F001C34B8 /* DarkRoast.h */,
@@ -649,6 +673,18 @@
 		1FBF62DE19B63D0F001C34B8 /* CodeTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1F5B472819BF53D90046F510 /* Decorator_Component.h */,
+				1F5B472919BF53D90046F510 /* Decorator_Component.m */,
+				1F5B472C19BF53F20046F510 /* Decorator_ConcreteComponent.h */,
+				1F5B472D19BF53F20046F510 /* Decorator_ConcreteComponent.m */,
+				1F5B473019BF540A0046F510 /* ConcreteDecoratorA.h */,
+				1F5B473119BF540A0046F510 /* ConcreteDecoratorA.m */,
+				1F5B473419BF54130046F510 /* ConcreteDecoratorB.h */,
+				1F5B473519BF54130046F510 /* ConcreteDecoratorB.m */,
+				1F5B473819BF542F0046F510 /* Decorator.h */,
+				1F5B473919BF542F0046F510 /* Decorator.m */,
+				1F5B473C19BF55EC0046F510 /* Decorator_Template_TestCase.h */,
+				1F5B473D19BF55EC0046F510 /* Decorator_Template_TestCase.m */,
 			);
 			path = CodeTemplate;
 			sourceTree = "<group>";
@@ -1220,6 +1256,7 @@
 				1F6CD56219BA26E200C1CF84 /* RefinedAbstraction.m in Sources */,
 				1FBF639019B63D0F001C34B8 /* FlyWithWings.m in Sources */,
 				1FBF63A019B63D0F001C34B8 /* Squeak.m in Sources */,
+				1F5B473A19BF542F0046F510 /* Decorator.m in Sources */,
 				1FD91E9519BB985900FBBDD5 /* SubSystemTwo.m in Sources */,
 				1FD91EA119BB9ACB00FBBDD5 /* Facade_Template_TestCase.m in Sources */,
 				1F6CD58619BA391B00C1CF84 /* ConcreteCommand.m in Sources */,
@@ -1240,6 +1277,7 @@
 				1FBF639A19B63D0F001C34B8 /* Quack.m in Sources */,
 				1FBF63AA19B63DB1001C34B8 /* AbstractFactory.m in Sources */,
 				1FBF635219B63D0F001C34B8 /* AdapteeImpl.m in Sources */,
+				1F5B472A19BF53D90046F510 /* Decorator_Component.m in Sources */,
 				1F6CD57A19BA370300C1CF84 /* Receiver.m in Sources */,
 				1FBF639619B63D0F001C34B8 /* ModelDuck.m in Sources */,
 				1FBF637619B63D0F001C34B8 /* ForecastDisplay.m in Sources */,
@@ -1272,7 +1310,10 @@
 				1F5C0D8A19B8E38B00AC2872 /* ProductB1.m in Sources */,
 				1FBF637019B63D0F001C34B8 /* Decorator.cpp in Sources */,
 				1FD91E9119BB984800FBBDD5 /* SubSystemOne.m in Sources */,
+				1F5B472E19BF53F20046F510 /* Decorator_ConcreteComponent.m in Sources */,
+				1F5B473619BF54130046F510 /* ConcreteDecoratorB.m in Sources */,
 				6FCEB87019B84C0F007E6FA9 /* ChainOfResponsibility_Template_TestCase.m in Sources */,
+				1F5B473219BF540A0046F510 /* ConcreteDecoratorA.m in Sources */,
 				1F6CD58219BA375000C1CF84 /* Invoker.m in Sources */,
 				1FBF638019B63D0F001C34B8 /* WeatherStationHeatIndex.m in Sources */,
 				6FCEB87619B84C0F007E6FA9 /* ConcreteHandler3.m in Sources */,
@@ -1294,6 +1335,7 @@
 				1FBF636E19B63D0F001C34B8 /* Component.cpp in Sources */,
 				6FCEB87419B84C0F007E6FA9 /* ConcreteHandler2.m in Sources */,
 				1FBF639C19B63D0F001C34B8 /* RedHeadDuck.m in Sources */,
+				1F5B473E19BF55EC0046F510 /* Decorator_Template_TestCase.m in Sources */,
 				1FBF636619B63D0F001C34B8 /* Mocha.m in Sources */,
 				1FBF638C19B63D0F001C34B8 /* FlyNoWay.m in Sources */,
 				1FBF637219B63D0F001C34B8 /* DecoratorCPPTestCase.mm in Sources */,
@@ -1336,6 +1378,7 @@
 				1FD91E9619BB985900FBBDD5 /* SubSystemTwo.m in Sources */,
 				1FBF638519B63D0F001C34B8 /* Singleton_TestCase.m in Sources */,
 				1FBF639B19B63D0F001C34B8 /* Quack.m in Sources */,
+				1F5B473B19BF542F0046F510 /* Decorator.m in Sources */,
 				1FBF639319B63D0F001C34B8 /* MallardDuck.m in Sources */,
 				1FBF638719B63D0F001C34B8 /* DecoyDuck.m in Sources */,
 				1FBF639519B63D0F001C34B8 /* MiniDuckSimulator.m in Sources */,
@@ -1344,6 +1387,7 @@
 				1F1BCBB819BDF5100060C231 /* Director.m in Sources */,
 				1FBF635D19B63D0F001C34B8 /* DarkRoast.m in Sources */,
 				1F5C0D9319B8E4E100AC2872 /* Client.m in Sources */,
+				1F5B473719BF54130046F510 /* ConcreteDecoratorB.m in Sources */,
 				1F5C0D8F19B8E4A300AC2872 /* ProductB2.m in Sources */,
 				6F43221619BEC0420017A985 /* Composite.m in Sources */,
 				1FBF637719B63D0F001C34B8 /* ForecastDisplay.m in Sources */,
@@ -1366,6 +1410,7 @@
 				1F6CD58319BA375000C1CF84 /* Invoker.m in Sources */,
 				1FBF639F19B63D0F001C34B8 /* RubberDuck.m in Sources */,
 				1F6CD56319BA26E200C1CF84 /* RefinedAbstraction.m in Sources */,
+				1F5B473F19BF55EC0046F510 /* Decorator_Template_TestCase.m in Sources */,
 				6FCEB87919B84C0F007E6FA9 /* Handler.m in Sources */,
 				1F1BCBB019BDF3E20060C231 /* ConcreteBuilder1.m in Sources */,
 				1FBF63A519B63D0F001C34B8 /* ConcreteClass_TemplateMethod.m in Sources */,
@@ -1373,6 +1418,7 @@
 				1FBF63A319B63D0F001C34B8 /* AbstractClass_TemplateMethod.m in Sources */,
 				1FBF636519B63D0F001C34B8 /* Milk.m in Sources */,
 				1FBF638319B63D0F001C34B8 /* Singleton.m in Sources */,
+				1F5B472B19BF53D90046F510 /* Decorator_Component.m in Sources */,
 				1FBF636719B63D0F001C34B8 /* Mocha.m in Sources */,
 				1FBF637F19B63D0F001C34B8 /* WeatherStation.m in Sources */,
 				1FBF636919B63D0F001C34B8 /* Soy.m in Sources */,
@@ -1384,8 +1430,10 @@
 				1F5C0D9F19B8E70700AC2872 /* AbstractFactory_Template_TestCase.m in Sources */,
 				1FBF637919B63D0F001C34B8 /* HeatIndexDisplay.m in Sources */,
 				1FBF635919B63D0F001C34B8 /* Beverage.m in Sources */,
+				1F5B472F19BF53F20046F510 /* Decorator_ConcreteComponent.m in Sources */,
 				1FBF637319B63D0F001C34B8 /* DecoratorCPPTestCase.mm in Sources */,
 				1FBF63A119B63D0F001C34B8 /* Squeak.m in Sources */,
+				1F5B473319BF540A0046F510 /* ConcreteDecoratorA.m in Sources */,
 				6F43221E19BEC1A40017A985 /* Composite_Template_TestCase.m in Sources */,
 				1FBF635719B63D0F001C34B8 /* Adapter_TestCase.m in Sources */,
 				1FBF635F19B63D0F001C34B8 /* Decaf.m in Sources */,
