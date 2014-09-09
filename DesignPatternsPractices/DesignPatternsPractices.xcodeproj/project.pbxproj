@@ -31,6 +31,34 @@
 		1F5B473B19BF542F0046F510 /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B473919BF542F0046F510 /* Decorator.m */; };
 		1F5B473E19BF55EC0046F510 /* Decorator_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B473D19BF55EC0046F510 /* Decorator_Template_TestCase.m */; };
 		1F5B473F19BF55EC0046F510 /* Decorator_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B473D19BF55EC0046F510 /* Decorator_Template_TestCase.m */; };
+		1F5B474219BF583D0046F510 /* FactoryMethod_Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B474119BF583D0046F510 /* FactoryMethod_Product.m */; };
+		1F5B474319BF583D0046F510 /* FactoryMethod_Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B474119BF583D0046F510 /* FactoryMethod_Product.m */; };
+		1F5B474619BF585F0046F510 /* FactoryMethod_ConcreteProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B474519BF585F0046F510 /* FactoryMethod_ConcreteProductA.m */; };
+		1F5B474719BF585F0046F510 /* FactoryMethod_ConcreteProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B474519BF585F0046F510 /* FactoryMethod_ConcreteProductA.m */; };
+		1F5B474A19BF58760046F510 /* FactoryMethod_ConcreteProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B474919BF58760046F510 /* FactoryMethod_ConcreteProductB.m */; };
+		1F5B474B19BF58760046F510 /* FactoryMethod_ConcreteProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B474919BF58760046F510 /* FactoryMethod_ConcreteProductB.m */; };
+		1F5B474E19BF588E0046F510 /* FactoryMethod_Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B474D19BF588E0046F510 /* FactoryMethod_Creator.m */; };
+		1F5B474F19BF588E0046F510 /* FactoryMethod_Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B474D19BF588E0046F510 /* FactoryMethod_Creator.m */; };
+		1F5B475619BF58C00046F510 /* FactoryMethod_CreatorA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B475519BF58C00046F510 /* FactoryMethod_CreatorA.m */; };
+		1F5B475719BF58C00046F510 /* FactoryMethod_CreatorA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B475519BF58C00046F510 /* FactoryMethod_CreatorA.m */; };
+		1F5B475A19BF58CD0046F510 /* FactoryMethod_CreatorB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B475919BF58CD0046F510 /* FactoryMethod_CreatorB.m */; };
+		1F5B475B19BF58CD0046F510 /* FactoryMethod_CreatorB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B475919BF58CD0046F510 /* FactoryMethod_CreatorB.m */; };
+		1F5B475E19BF59D70046F510 /* FactoryMethod_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B475D19BF59D70046F510 /* FactoryMethod_Template_TestCase.m */; };
+		1F5B475F19BF59D70046F510 /* FactoryMethod_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B475D19BF59D70046F510 /* FactoryMethod_Template_TestCase.m */; };
+		1F5B476219BF5A560046F510 /* TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B476119BF5A560046F510 /* TestCase.m */; };
+		1F5B476319BF5A560046F510 /* TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B476119BF5A560046F510 /* TestCase.m */; };
+		1F5B478C19BF5CE30046F510 /* Strategy_ConcreteStrategyA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B478119BF5CE30046F510 /* Strategy_ConcreteStrategyA.m */; };
+		1F5B478D19BF5CE30046F510 /* Strategy_ConcreteStrategyA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B478119BF5CE30046F510 /* Strategy_ConcreteStrategyA.m */; };
+		1F5B478E19BF5CE30046F510 /* Strategy_ConcreteStrategyB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B478319BF5CE30046F510 /* Strategy_ConcreteStrategyB.m */; };
+		1F5B478F19BF5CE30046F510 /* Strategy_ConcreteStrategyB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B478319BF5CE30046F510 /* Strategy_ConcreteStrategyB.m */; };
+		1F5B479019BF5CE30046F510 /* Strategy_ConcreteStrategyC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B478519BF5CE30046F510 /* Strategy_ConcreteStrategyC.m */; };
+		1F5B479119BF5CE30046F510 /* Strategy_ConcreteStrategyC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B478519BF5CE30046F510 /* Strategy_ConcreteStrategyC.m */; };
+		1F5B479219BF5CE30046F510 /* Strategy_Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B478719BF5CE30046F510 /* Strategy_Context.m */; };
+		1F5B479319BF5CE30046F510 /* Strategy_Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B478719BF5CE30046F510 /* Strategy_Context.m */; };
+		1F5B479419BF5CE30046F510 /* Strategy_Strategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B478919BF5CE30046F510 /* Strategy_Strategy.m */; };
+		1F5B479519BF5CE30046F510 /* Strategy_Strategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B478919BF5CE30046F510 /* Strategy_Strategy.m */; };
+		1F5B479619BF5CE30046F510 /* Strategy_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B478B19BF5CE30046F510 /* Strategy_Template_TestCase.m */; };
+		1F5B479719BF5CE30046F510 /* Strategy_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B478B19BF5CE30046F510 /* Strategy_Template_TestCase.m */; };
 		1F5C0D7A19B8E21D00AC2872 /* AbstractProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C0D7919B8E21D00AC2872 /* AbstractProductA.m */; };
 		1F5C0D7B19B8E21D00AC2872 /* AbstractProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C0D7919B8E21D00AC2872 /* AbstractProductA.m */; };
 		1F5C0D7E19B8E22B00AC2872 /* AbstractProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C0D7D19B8E22B00AC2872 /* AbstractProductB.m */; };
@@ -252,6 +280,34 @@
 		1F5B473919BF542F0046F510 /* Decorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decorator.m; sourceTree = "<group>"; };
 		1F5B473C19BF55EC0046F510 /* Decorator_Template_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator_Template_TestCase.h; sourceTree = "<group>"; };
 		1F5B473D19BF55EC0046F510 /* Decorator_Template_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decorator_Template_TestCase.m; sourceTree = "<group>"; };
+		1F5B474019BF583D0046F510 /* FactoryMethod_Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMethod_Product.h; sourceTree = "<group>"; };
+		1F5B474119BF583D0046F510 /* FactoryMethod_Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMethod_Product.m; sourceTree = "<group>"; };
+		1F5B474419BF585F0046F510 /* FactoryMethod_ConcreteProductA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMethod_ConcreteProductA.h; sourceTree = "<group>"; };
+		1F5B474519BF585F0046F510 /* FactoryMethod_ConcreteProductA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMethod_ConcreteProductA.m; sourceTree = "<group>"; };
+		1F5B474819BF58760046F510 /* FactoryMethod_ConcreteProductB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMethod_ConcreteProductB.h; sourceTree = "<group>"; };
+		1F5B474919BF58760046F510 /* FactoryMethod_ConcreteProductB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMethod_ConcreteProductB.m; sourceTree = "<group>"; };
+		1F5B474C19BF588E0046F510 /* FactoryMethod_Creator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMethod_Creator.h; sourceTree = "<group>"; };
+		1F5B474D19BF588E0046F510 /* FactoryMethod_Creator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMethod_Creator.m; sourceTree = "<group>"; };
+		1F5B475419BF58C00046F510 /* FactoryMethod_CreatorA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMethod_CreatorA.h; sourceTree = "<group>"; };
+		1F5B475519BF58C00046F510 /* FactoryMethod_CreatorA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMethod_CreatorA.m; sourceTree = "<group>"; };
+		1F5B475819BF58CD0046F510 /* FactoryMethod_CreatorB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMethod_CreatorB.h; sourceTree = "<group>"; };
+		1F5B475919BF58CD0046F510 /* FactoryMethod_CreatorB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMethod_CreatorB.m; sourceTree = "<group>"; };
+		1F5B475C19BF59D70046F510 /* FactoryMethod_Template_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMethod_Template_TestCase.h; sourceTree = "<group>"; };
+		1F5B475D19BF59D70046F510 /* FactoryMethod_Template_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMethod_Template_TestCase.m; sourceTree = "<group>"; };
+		1F5B476019BF5A560046F510 /* TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCase.h; sourceTree = "<group>"; };
+		1F5B476119BF5A560046F510 /* TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCase.m; sourceTree = "<group>"; };
+		1F5B478019BF5CE30046F510 /* Strategy_ConcreteStrategyA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy_ConcreteStrategyA.h; sourceTree = "<group>"; };
+		1F5B478119BF5CE30046F510 /* Strategy_ConcreteStrategyA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strategy_ConcreteStrategyA.m; sourceTree = "<group>"; };
+		1F5B478219BF5CE30046F510 /* Strategy_ConcreteStrategyB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy_ConcreteStrategyB.h; sourceTree = "<group>"; };
+		1F5B478319BF5CE30046F510 /* Strategy_ConcreteStrategyB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strategy_ConcreteStrategyB.m; sourceTree = "<group>"; };
+		1F5B478419BF5CE30046F510 /* Strategy_ConcreteStrategyC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy_ConcreteStrategyC.h; sourceTree = "<group>"; };
+		1F5B478519BF5CE30046F510 /* Strategy_ConcreteStrategyC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strategy_ConcreteStrategyC.m; sourceTree = "<group>"; };
+		1F5B478619BF5CE30046F510 /* Strategy_Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy_Context.h; sourceTree = "<group>"; };
+		1F5B478719BF5CE30046F510 /* Strategy_Context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strategy_Context.m; sourceTree = "<group>"; };
+		1F5B478819BF5CE30046F510 /* Strategy_Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy_Strategy.h; sourceTree = "<group>"; };
+		1F5B478919BF5CE30046F510 /* Strategy_Strategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strategy_Strategy.m; sourceTree = "<group>"; };
+		1F5B478A19BF5CE30046F510 /* Strategy_Template_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy_Template_TestCase.h; sourceTree = "<group>"; };
+		1F5B478B19BF5CE30046F510 /* Strategy_Template_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strategy_Template_TestCase.m; sourceTree = "<group>"; };
 		1F5C0D7819B8E21D00AC2872 /* AbstractProductA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProductA.h; sourceTree = "<group>"; };
 		1F5C0D7919B8E21D00AC2872 /* AbstractProductA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractProductA.m; sourceTree = "<group>"; };
 		1F5C0D7C19B8E22B00AC2872 /* AbstractProductB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProductB.h; sourceTree = "<group>"; };
@@ -748,6 +804,20 @@
 		1FBF62FE19B63D0F001C34B8 /* CodeTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1F5B474019BF583D0046F510 /* FactoryMethod_Product.h */,
+				1F5B474119BF583D0046F510 /* FactoryMethod_Product.m */,
+				1F5B474419BF585F0046F510 /* FactoryMethod_ConcreteProductA.h */,
+				1F5B474519BF585F0046F510 /* FactoryMethod_ConcreteProductA.m */,
+				1F5B474819BF58760046F510 /* FactoryMethod_ConcreteProductB.h */,
+				1F5B474919BF58760046F510 /* FactoryMethod_ConcreteProductB.m */,
+				1F5B474C19BF588E0046F510 /* FactoryMethod_Creator.h */,
+				1F5B474D19BF588E0046F510 /* FactoryMethod_Creator.m */,
+				1F5B475419BF58C00046F510 /* FactoryMethod_CreatorA.h */,
+				1F5B475519BF58C00046F510 /* FactoryMethod_CreatorA.m */,
+				1F5B475819BF58CD0046F510 /* FactoryMethod_CreatorB.h */,
+				1F5B475919BF58CD0046F510 /* FactoryMethod_CreatorB.m */,
+				1F5B475C19BF59D70046F510 /* FactoryMethod_Template_TestCase.h */,
+				1F5B475D19BF59D70046F510 /* FactoryMethod_Template_TestCase.m */,
 			);
 			path = CodeTemplate;
 			sourceTree = "<group>";
@@ -965,6 +1035,18 @@
 		1FBF632919B63D0F001C34B8 /* CodeTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1F5B478019BF5CE30046F510 /* Strategy_ConcreteStrategyA.h */,
+				1F5B478119BF5CE30046F510 /* Strategy_ConcreteStrategyA.m */,
+				1F5B478219BF5CE30046F510 /* Strategy_ConcreteStrategyB.h */,
+				1F5B478319BF5CE30046F510 /* Strategy_ConcreteStrategyB.m */,
+				1F5B478419BF5CE30046F510 /* Strategy_ConcreteStrategyC.h */,
+				1F5B478519BF5CE30046F510 /* Strategy_ConcreteStrategyC.m */,
+				1F5B478619BF5CE30046F510 /* Strategy_Context.h */,
+				1F5B478719BF5CE30046F510 /* Strategy_Context.m */,
+				1F5B478819BF5CE30046F510 /* Strategy_Strategy.h */,
+				1F5B478919BF5CE30046F510 /* Strategy_Strategy.m */,
+				1F5B478A19BF5CE30046F510 /* Strategy_Template_TestCase.h */,
+				1F5B478B19BF5CE30046F510 /* Strategy_Template_TestCase.m */,
 			);
 			path = CodeTemplate;
 			sourceTree = "<group>";
@@ -1083,6 +1165,8 @@
 			isa = PBXGroup;
 			children = (
 				6FCCB917199C5AE3006B59DE /* TestCaseInterface.h */,
+				1F5B476019BF5A560046F510 /* TestCase.h */,
+				1F5B476119BF5A560046F510 /* TestCase.m */,
 				6FCEB85019B846F8007E6FA9 /* ChainOfResponsibility */,
 				1FBF62C519B63D0F001C34B8 /* AbstractFactory */,
 				1FBF62C719B63D0F001C34B8 /* Adapter */,
@@ -1249,6 +1333,7 @@
 				1FBF639219B63D0F001C34B8 /* MallardDuck.m in Sources */,
 				1F6CD56A19BA275200C1CF84 /* ConcreteImplementorB.m in Sources */,
 				1FBF636219B63D0F001C34B8 /* HouseBlend.m in Sources */,
+				1F5B474E19BF588E0046F510 /* FactoryMethod_Creator.m in Sources */,
 				1FBF639E19B63D0F001C34B8 /* RubberDuck.m in Sources */,
 				1F1BCBB719BDF5100060C231 /* Director.m in Sources */,
 				1FBF635619B63D0F001C34B8 /* Adapter_TestCase.m in Sources */,
@@ -1257,6 +1342,7 @@
 				1FBF639019B63D0F001C34B8 /* FlyWithWings.m in Sources */,
 				1FBF63A019B63D0F001C34B8 /* Squeak.m in Sources */,
 				1F5B473A19BF542F0046F510 /* Decorator.m in Sources */,
+				1F5B478E19BF5CE30046F510 /* Strategy_ConcreteStrategyB.m in Sources */,
 				1FD91E9519BB985900FBBDD5 /* SubSystemTwo.m in Sources */,
 				1FD91EA119BB9ACB00FBBDD5 /* Facade_Template_TestCase.m in Sources */,
 				1F6CD58619BA391B00C1CF84 /* ConcreteCommand.m in Sources */,
@@ -1268,12 +1354,16 @@
 				1FBF63A419B63D0F001C34B8 /* ConcreteClass_TemplateMethod.m in Sources */,
 				1FBF637419B63D0F001C34B8 /* CurrentConditionsDisplay.m in Sources */,
 				1F1BCBAF19BDF3E20060C231 /* ConcreteBuilder1.m in Sources */,
+				1F5B474219BF583D0046F510 /* FactoryMethod_Product.m in Sources */,
+				1F5B479019BF5CE30046F510 /* Strategy_ConcreteStrategyC.m in Sources */,
+				1F5B474619BF585F0046F510 /* FactoryMethod_ConcreteProductA.m in Sources */,
 				1FBF637819B63D0F001C34B8 /* HeatIndexDisplay.m in Sources */,
 				1FBF63A619B63D0F001C34B8 /* TemplateMethod_TestCase.m in Sources */,
 				6FB4E3D7199A443800F2F8AF /* AppDelegate.m in Sources */,
 				1FBF635419B63D0F001C34B8 /* Adapter.m in Sources */,
 				1F6CD56619BA271900C1CF84 /* ConcreteImplementorA.m in Sources */,
 				1F1BCBB319BDF3F00060C231 /* ConcreteBuilder2.m in Sources */,
+				1F5B478C19BF5CE30046F510 /* Strategy_ConcreteStrategyA.m in Sources */,
 				1FBF639A19B63D0F001C34B8 /* Quack.m in Sources */,
 				1FBF63AA19B63DB1001C34B8 /* AbstractFactory.m in Sources */,
 				1FBF635219B63D0F001C34B8 /* AdapteeImpl.m in Sources */,
@@ -1283,6 +1373,7 @@
 				1FBF637619B63D0F001C34B8 /* ForecastDisplay.m in Sources */,
 				1FBF637C19B63D0F001C34B8 /* WeatherData.m in Sources */,
 				1FBF636419B63D0F001C34B8 /* Milk.m in Sources */,
+				1F5B476219BF5A560046F510 /* TestCase.m in Sources */,
 				1FD91E8D19BB981D00FBBDD5 /* Facade.m in Sources */,
 				1FD91E9D19BB987100FBBDD5 /* SubSystemFour.m in Sources */,
 				1F1BCBA719BDF1580060C231 /* Builder.m in Sources */,
@@ -1299,6 +1390,7 @@
 				1F5C0D9219B8E4E100AC2872 /* Client.m in Sources */,
 				1FBF638219B63D0F001C34B8 /* Singleton.m in Sources */,
 				1F5C0D9E19B8E70700AC2872 /* AbstractFactory_Template_TestCase.m in Sources */,
+				1F5B474A19BF58760046F510 /* FactoryMethod_ConcreteProductB.m in Sources */,
 				1F1BCBBB19BDF57B0060C231 /* Builder_Template_TestCase.m in Sources */,
 				1F6CD55A19BA25FF00C1CF84 /* Abstraction.m in Sources */,
 				1FBF638A19B63D0F001C34B8 /* FakeQuack.m in Sources */,
@@ -1306,20 +1398,24 @@
 				6F43221119BEBF7B0017A985 /* Composite_Component.m in Sources */,
 				1FBF636A19B63D0F001C34B8 /* StarbuzzCoffee.m in Sources */,
 				1F1BCBAB19BDF19A0060C231 /* Product.m in Sources */,
+				1F5B475E19BF59D70046F510 /* FactoryMethod_Template_TestCase.m in Sources */,
 				1FD91EAD19BBA02D00FBBDD5 /* Proxy.m in Sources */,
 				1F5C0D8A19B8E38B00AC2872 /* ProductB1.m in Sources */,
 				1FBF637019B63D0F001C34B8 /* Decorator.cpp in Sources */,
 				1FD91E9119BB984800FBBDD5 /* SubSystemOne.m in Sources */,
 				1F5B472E19BF53F20046F510 /* Decorator_ConcreteComponent.m in Sources */,
+				1F5B475A19BF58CD0046F510 /* FactoryMethod_CreatorB.m in Sources */,
 				1F5B473619BF54130046F510 /* ConcreteDecoratorB.m in Sources */,
 				6FCEB87019B84C0F007E6FA9 /* ChainOfResponsibility_Template_TestCase.m in Sources */,
 				1F5B473219BF540A0046F510 /* ConcreteDecoratorA.m in Sources */,
 				1F6CD58219BA375000C1CF84 /* Invoker.m in Sources */,
 				1FBF638019B63D0F001C34B8 /* WeatherStationHeatIndex.m in Sources */,
 				6FCEB87619B84C0F007E6FA9 /* ConcreteHandler3.m in Sources */,
+				1F5B479619BF5CE30046F510 /* Strategy_Template_TestCase.m in Sources */,
 				1FBF638619B63D0F001C34B8 /* DecoyDuck.m in Sources */,
 				6FCEB87819B84C0F007E6FA9 /* Handler.m in Sources */,
 				1FD91EA919BB9FF200FBBDD5 /* Proxy_RealSubject.m in Sources */,
+				1F5B479219BF5CE30046F510 /* Strategy_Context.m in Sources */,
 				1FBF635E19B63D0F001C34B8 /* Decaf.m in Sources */,
 				1F5C0D8E19B8E4A300AC2872 /* ProductB2.m in Sources */,
 				1F5C0D9A19B8E6AF00AC2872 /* ConcreteFactory2.m in Sources */,
@@ -1329,6 +1425,7 @@
 				1FD91EA519BB9F4400FBBDD5 /* Proxy_Subject.m in Sources */,
 				1FBF636019B63D0F001C34B8 /* Espresso.m in Sources */,
 				6F43221919BEC1390017A985 /* Leaf.m in Sources */,
+				1F5B479419BF5CE30046F510 /* Strategy_Strategy.m in Sources */,
 				1FBF635A19B63D0F001C34B8 /* CondimentDecorator.m in Sources */,
 				6FCEB87219B84C0F007E6FA9 /* ConcreteHandler1.m in Sources */,
 				6FB4E3D3199A443800F2F8AF /* main.m in Sources */,
@@ -1337,6 +1434,7 @@
 				1FBF639C19B63D0F001C34B8 /* RedHeadDuck.m in Sources */,
 				1F5B473E19BF55EC0046F510 /* Decorator_Template_TestCase.m in Sources */,
 				1FBF636619B63D0F001C34B8 /* Mocha.m in Sources */,
+				1F5B475619BF58C00046F510 /* FactoryMethod_CreatorA.m in Sources */,
 				1FBF638C19B63D0F001C34B8 /* FlyNoWay.m in Sources */,
 				1FBF637219B63D0F001C34B8 /* DecoratorCPPTestCase.mm in Sources */,
 				6FF75E8C19B7397B0049AEBA /* Observable.m in Sources */,
@@ -1350,11 +1448,13 @@
 				1FD91EAE19BBA02D00FBBDD5 /* Proxy.m in Sources */,
 				6FCEB87119B84C0F007E6FA9 /* ChainOfResponsibility_Template_TestCase.m in Sources */,
 				1FBF63AB19B63DB1001C34B8 /* AbstractFactory.m in Sources */,
+				1F5B476319BF5A560046F510 /* TestCase.m in Sources */,
 				1F1BCBBC19BDF57B0060C231 /* Builder_Template_TestCase.m in Sources */,
 				1F6CD56B19BA275200C1CF84 /* ConcreteImplementorB.m in Sources */,
 				1FBF638B19B63D0F001C34B8 /* FakeQuack.m in Sources */,
 				1FD91E9219BB984800FBBDD5 /* SubSystemOne.m in Sources */,
 				1FBF638119B63D0F001C34B8 /* WeatherStationHeatIndex.m in Sources */,
+				1F5B479119BF5CE30046F510 /* Strategy_ConcreteStrategyC.m in Sources */,
 				1FBF637119B63D0F001C34B8 /* Decorator.cpp in Sources */,
 				6FF75E8D19B7397B0049AEBA /* Observable.m in Sources */,
 				1F5C0D9B19B8E6AF00AC2872 /* ConcreteFactory2.m in Sources */,
@@ -1365,6 +1465,7 @@
 				1FD91E8E19BB981D00FBBDD5 /* Facade.m in Sources */,
 				6FCEB87519B84C0F007E6FA9 /* ConcreteHandler2.m in Sources */,
 				1F6CD57319BA36CA00C1CF84 /* Command.m in Sources */,
+				1F5B474B19BF58760046F510 /* FactoryMethod_ConcreteProductB.m in Sources */,
 				1FBF639119B63D0F001C34B8 /* FlyWithWings.m in Sources */,
 				1FBF636F19B63D0F001C34B8 /* Component.cpp in Sources */,
 				1FBF639919B63D0F001C34B8 /* MuteQuack.m in Sources */,
@@ -1374,6 +1475,7 @@
 				1F6CD55F19BA261500C1CF84 /* Implementor.m in Sources */,
 				1F6CD56F19BA27D900C1CF84 /* Bridge_Template_TestCase.m in Sources */,
 				1FBF63A719B63D0F001C34B8 /* TemplateMethod_TestCase.m in Sources */,
+				1F5B478F19BF5CE30046F510 /* Strategy_ConcreteStrategyB.m in Sources */,
 				1F5C0D8319B8E33E00AC2872 /* ProductA1.m in Sources */,
 				1FD91E9619BB985900FBBDD5 /* SubSystemTwo.m in Sources */,
 				1FBF638519B63D0F001C34B8 /* Singleton_TestCase.m in Sources */,
@@ -1390,6 +1492,7 @@
 				1F5B473719BF54130046F510 /* ConcreteDecoratorB.m in Sources */,
 				1F5C0D8F19B8E4A300AC2872 /* ProductB2.m in Sources */,
 				6F43221619BEC0420017A985 /* Composite.m in Sources */,
+				1F5B478D19BF5CE30046F510 /* Strategy_ConcreteStrategyA.m in Sources */,
 				1FBF637719B63D0F001C34B8 /* ForecastDisplay.m in Sources */,
 				1FBF637519B63D0F001C34B8 /* CurrentConditionsDisplay.m in Sources */,
 				1FBF637D19B63D0F001C34B8 /* WeatherData.m in Sources */,
@@ -1399,6 +1502,8 @@
 				1F5C0D8B19B8E38B00AC2872 /* ProductB1.m in Sources */,
 				1FBF639719B63D0F001C34B8 /* ModelDuck.m in Sources */,
 				6F43221219BEBF7B0017A985 /* Composite_Component.m in Sources */,
+				1F5B475B19BF58CD0046F510 /* FactoryMethod_CreatorB.m in Sources */,
+				1F5B474319BF583D0046F510 /* FactoryMethod_Product.m in Sources */,
 				1F5C0D8719B8E36900AC2872 /* ProductA2.m in Sources */,
 				1FBF635519B63D0F001C34B8 /* Adapter.m in Sources */,
 				1F6CD58719BA391B00C1CF84 /* ConcreteCommand.m in Sources */,
@@ -1420,12 +1525,15 @@
 				1FBF638319B63D0F001C34B8 /* Singleton.m in Sources */,
 				1F5B472B19BF53D90046F510 /* Decorator_Component.m in Sources */,
 				1FBF636719B63D0F001C34B8 /* Mocha.m in Sources */,
+				1F5B479319BF5CE30046F510 /* Strategy_Context.m in Sources */,
 				1FBF637F19B63D0F001C34B8 /* WeatherStation.m in Sources */,
 				1FBF636919B63D0F001C34B8 /* Soy.m in Sources */,
+				1F5B474719BF585F0046F510 /* FactoryMethod_ConcreteProductA.m in Sources */,
 				1FD91EB219BBA15700FBBDD5 /* Proxy_Template_TestCase.m in Sources */,
 				1FBF638F19B63D0F001C34B8 /* FlyRocketPowered.m in Sources */,
 				1F5C0D7B19B8E21D00AC2872 /* AbstractProductA.m in Sources */,
 				1FD91E9E19BB987100FBBDD5 /* SubSystemFour.m in Sources */,
+				1F5B474F19BF588E0046F510 /* FactoryMethod_Creator.m in Sources */,
 				1FBF636B19B63D0F001C34B8 /* StarbuzzCoffee.m in Sources */,
 				1F5C0D9F19B8E70700AC2872 /* AbstractFactory_Template_TestCase.m in Sources */,
 				1FBF637919B63D0F001C34B8 /* HeatIndexDisplay.m in Sources */,
@@ -1433,16 +1541,20 @@
 				1F5B472F19BF53F20046F510 /* Decorator_ConcreteComponent.m in Sources */,
 				1FBF637319B63D0F001C34B8 /* DecoratorCPPTestCase.mm in Sources */,
 				1FBF63A119B63D0F001C34B8 /* Squeak.m in Sources */,
+				1F5B479719BF5CE30046F510 /* Strategy_Template_TestCase.m in Sources */,
 				1F5B473319BF540A0046F510 /* ConcreteDecoratorA.m in Sources */,
 				6F43221E19BEC1A40017A985 /* Composite_Template_TestCase.m in Sources */,
 				1FBF635719B63D0F001C34B8 /* Adapter_TestCase.m in Sources */,
 				1FBF635F19B63D0F001C34B8 /* Decaf.m in Sources */,
+				1F5B475F19BF59D70046F510 /* FactoryMethod_Template_TestCase.m in Sources */,
 				1F5C0D7F19B8E22B00AC2872 /* AbstractProductB.m in Sources */,
 				1FBF637B19B63D0F001C34B8 /* StatisticsDisplay.m in Sources */,
 				1FD91E9A19BB986500FBBDD5 /* SubSystemThree.m in Sources */,
 				1FBF635319B63D0F001C34B8 /* AdapteeImpl.m in Sources */,
 				1F6CD55B19BA25FF00C1CF84 /* Abstraction.m in Sources */,
+				1F5B479519BF5CE30046F510 /* Strategy_Strategy.m in Sources */,
 				6FB4E3EC199A443800F2F8AF /* DesignPatternsPracticesTests.m in Sources */,
+				1F5B475719BF58C00046F510 /* FactoryMethod_CreatorA.m in Sources */,
 				6FCEB87319B84C0F007E6FA9 /* ConcreteHandler1.m in Sources */,
 				6FCEB87719B84C0F007E6FA9 /* ConcreteHandler3.m in Sources */,
 			);

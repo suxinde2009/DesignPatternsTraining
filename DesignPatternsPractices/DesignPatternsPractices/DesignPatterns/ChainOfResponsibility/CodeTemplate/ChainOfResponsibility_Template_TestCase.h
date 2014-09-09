@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TestCaseInterface.h"
+#import "TestCase.h"
 
 // http://www.dofactory.com/net/chain-of-responsibility-design-pattern
 
-@interface ChainOfResponsibility_Template_TestCase : NSObject <TestCaseInterface>
+@interface ChainOfResponsibility_Template_TestCase : TestCase
 
 @end

@@ -15,8 +15,8 @@
 #import "ConcreteBuilder2.h"
 #import "Product.h"
 
-#import "TestCaseInterface.h"
+#import "TestCase.h"
 
-@interface Builder_Template_TestCase : NSObject <TestCaseInterface>
+@interface Builder_Template_TestCase : TestCase
 
 @end

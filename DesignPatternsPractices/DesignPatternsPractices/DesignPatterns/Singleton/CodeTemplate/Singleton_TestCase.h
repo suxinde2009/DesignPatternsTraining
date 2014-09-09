@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "Singleton.h"
-#import "TestCaseInterface.h"
+#import "TestCase.h"
 
-@interface Singleton_TestCase : NSObject <TestCaseInterface>
+@interface Singleton_TestCase : TestCase
 
 @end

@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TestCaseInterface.h"
+#import "TestCase.h"
 
 #import "Adapter.h"
 #import "Target.h"
 
-@interface Adapter_TestCase : NSObject <TestCaseInterface>
+@interface Adapter_TestCase : TestCase
 
 @end

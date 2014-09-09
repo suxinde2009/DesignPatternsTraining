@@ -9,13 +9,13 @@
 // http://www.dofactory.com/net/decorator-design-pattern
 
 #import <Foundation/Foundation.h>
-#import "TestCaseInterface.h"
+#import "TestCase.h"
 #import "Decorator_Component.h"
 #import "Decorator_ConcreteComponent.h"
 #import "ConcreteDecoratorA.h"
 #import "ConcreteDecoratorB.h"
 
 
-@interface Decorator_Template_TestCase : NSObject <TestCaseInterface>
+@interface Decorator_Template_TestCase : TestCase
 
 @end

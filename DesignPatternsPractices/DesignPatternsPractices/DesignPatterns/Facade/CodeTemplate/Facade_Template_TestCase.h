@@ -9,9 +9,9 @@
 // http://www.dofactory.com/net/facade-design-pattern
 
 #import <Foundation/Foundation.h>
-#import "TestCaseInterface.h"
+#import "TestCase.h"
 #import "Facade.h"
 
-@interface Facade_Template_TestCase : NSObject <TestCaseInterface>
+@interface Facade_Template_TestCase : TestCase
 
 @end

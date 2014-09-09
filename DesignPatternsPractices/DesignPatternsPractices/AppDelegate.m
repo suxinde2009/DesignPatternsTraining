@@ -41,6 +41,8 @@
 
 #import "Decorator_Template_TestCase.h"
 
+#import "Strategy_Template_TestCase.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -51,6 +53,7 @@
     
     // 策略模式
 //    [MiniDuckSimulator mainTest];
+    [Strategy_Template_TestCase mainTest];
     
     // 观察者模式
 //    [WeatherStation mainTest];
@@ -59,7 +62,7 @@
     // 装饰者模式
 //    [StarbuzzCoffee mainTest];
 //    [DecoratorCPPTestCase mainTest];
-    [Decorator_Template_TestCase mainTest];
+//    [Decorator_Template_TestCase mainTest];
     
     // 模版方法
 //    [TemplateMethod_TestCase mainTest];

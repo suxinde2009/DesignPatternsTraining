@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TestCaseInterface.h"
+#import "TestCase.h"
 
 #import "Receiver.h"
 #import "Command.h"
 #import "Invoker.h"
 #import "ConcreteCommand.h"
 
-@interface Command_Template_TestCase : NSObject <TestCaseInterface>
+@interface Command_Template_TestCase : TestCase
 
 @end

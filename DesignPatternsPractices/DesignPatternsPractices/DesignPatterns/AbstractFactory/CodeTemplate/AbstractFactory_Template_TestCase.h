@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TestCaseInterface.h"
+#import "TestCase.h"
 
 // http://www.dofactory.com/net/abstract-factory-design-pattern
 
-@interface AbstractFactory_Template_TestCase : NSObject <TestCaseInterface>
+@interface AbstractFactory_Template_TestCase : TestCase
 
 @end

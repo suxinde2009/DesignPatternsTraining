@@ -10,8 +10,8 @@
 
 #import <Foundation/Foundation.h>
 #import "Proxy.h"
-#import "TestCaseInterface.h"
+#import "TestCase.h"
 
-@interface Proxy_Template_TestCase : NSObject <TestCaseInterface>
+@interface Proxy_Template_TestCase : TestCase
 
 @end

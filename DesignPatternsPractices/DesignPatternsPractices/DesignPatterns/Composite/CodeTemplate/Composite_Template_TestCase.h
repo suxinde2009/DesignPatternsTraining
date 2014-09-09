@@ -11,9 +11,9 @@
 #import <Foundation/Foundation.h>
 #import "Composite.h"
 #import "Composite_Component.h"
-#import "TestCaseInterface.h"
+#import "TestCase.h"
 #import "Leaf.h"
 
-@interface Composite_Template_TestCase : NSObject <TestCaseInterface>
+@interface Composite_Template_TestCase : TestCase
 
 @end

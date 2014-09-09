@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TestCaseInterface.h"
+#import "TestCase.h"
 
 // http://www.dofactory.com/net/bridge-design-pattern
 
-@interface Bridge_Template_TestCase : NSObject <TestCaseInterface>
+@interface Bridge_Template_TestCase : TestCase
 
 @end
