@@ -37,6 +37,8 @@
 
 #import "Builder_Template_TestCase.h"
 
+#import "Composite_Template_TestCase.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -84,7 +86,12 @@
 //    [Proxy_Template_TestCase mainTest];
     
     // 建造者模式
-    [Builder_Template_TestCase mainTest];
+//    [Builder_Template_TestCase mainTest];
+    
+    // 组合模式
+    [Composite_Template_TestCase mainTest];
+    
+    //
     
     [self.window makeKeyAndVisible];
     return YES;

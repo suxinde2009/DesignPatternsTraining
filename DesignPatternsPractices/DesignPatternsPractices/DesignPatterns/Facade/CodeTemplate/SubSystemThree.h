@@ -2,7 +2,7 @@
 //  SubSystemThree.h
 //  DesignPatternsPractices
 //
-//  Created by su xinde on 14-9-7.
+//  Created by Su XinDe on 14-9-7.
 //  Copyright (c) 2014年 Su XinDe. All rights reserved.
 //
 

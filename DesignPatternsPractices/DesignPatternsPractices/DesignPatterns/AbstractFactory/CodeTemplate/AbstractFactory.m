@@ -2,7 +2,7 @@
 //  A.m
 //  DesignPatternsPractices
 //
-//  Created by su xinde on 14-9-3.
+//  Created by Su XinDe on 14-9-3.
 //  Copyright (c) 2014年 Su XinDe. All rights reserved.
 //
 
