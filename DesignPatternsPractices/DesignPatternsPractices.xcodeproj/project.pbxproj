@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F111C9019BF611400175FD8 /* Observer_Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F111C8F19BF611400175FD8 /* Observer_Observer.m */; };
+		1F111C9119BF611400175FD8 /* Observer_Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F111C8F19BF611400175FD8 /* Observer_Observer.m */; };
+		1F111C9419BF617F00175FD8 /* Observer_ConcreteObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F111C9319BF617F00175FD8 /* Observer_ConcreteObserver.m */; };
+		1F111C9519BF617F00175FD8 /* Observer_ConcreteObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F111C9319BF617F00175FD8 /* Observer_ConcreteObserver.m */; };
+		1F111C9819BF61B500175FD8 /* Observer_Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F111C9719BF61B500175FD8 /* Observer_Subject.m */; };
+		1F111C9919BF61B500175FD8 /* Observer_Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F111C9719BF61B500175FD8 /* Observer_Subject.m */; };
+		1F111C9C19BF62A900175FD8 /* Observer_ConcreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F111C9B19BF62A900175FD8 /* Observer_ConcreteSubject.m */; };
+		1F111C9D19BF62A900175FD8 /* Observer_ConcreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F111C9B19BF62A900175FD8 /* Observer_ConcreteSubject.m */; };
+		1F111CA019BF647100175FD8 /* Observer_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F111C9F19BF647100175FD8 /* Observer_Template_TestCase.m */; };
+		1F111CA119BF647100175FD8 /* Observer_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F111C9F19BF647100175FD8 /* Observer_Template_TestCase.m */; };
 		1F1BCBA719BDF1580060C231 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBA619BDF1580060C231 /* Builder.m */; };
 		1F1BCBA819BDF1580060C231 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBA619BDF1580060C231 /* Builder.m */; };
 		1F1BCBAB19BDF19A0060C231 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBAA19BDF19A0060C231 /* Product.m */; };
@@ -256,6 +266,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F111C8E19BF611400175FD8 /* Observer_Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer_Observer.h; sourceTree = "<group>"; };
+		1F111C8F19BF611400175FD8 /* Observer_Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer_Observer.m; sourceTree = "<group>"; };
+		1F111C9219BF617F00175FD8 /* Observer_ConcreteObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer_ConcreteObserver.h; sourceTree = "<group>"; };
+		1F111C9319BF617F00175FD8 /* Observer_ConcreteObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer_ConcreteObserver.m; sourceTree = "<group>"; };
+		1F111C9619BF61B500175FD8 /* Observer_Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer_Subject.h; sourceTree = "<group>"; };
+		1F111C9719BF61B500175FD8 /* Observer_Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer_Subject.m; sourceTree = "<group>"; };
+		1F111C9A19BF62A900175FD8 /* Observer_ConcreteSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer_ConcreteSubject.h; sourceTree = "<group>"; };
+		1F111C9B19BF62A900175FD8 /* Observer_ConcreteSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer_ConcreteSubject.m; sourceTree = "<group>"; };
+		1F111C9E19BF647100175FD8 /* Observer_Template_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer_Template_TestCase.h; sourceTree = "<group>"; };
+		1F111C9F19BF647100175FD8 /* Observer_Template_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer_Template_TestCase.m; sourceTree = "<group>"; };
 		1F1BCBA519BDF1580060C231 /* Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
 		1F1BCBA619BDF1580060C231 /* Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
 		1F1BCBA919BDF19A0060C231 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
@@ -534,6 +554,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F111C8D19BF60E300175FD8 /* CodeTemplate2 */ = {
+			isa = PBXGroup;
+			children = (
+				1F111C8E19BF611400175FD8 /* Observer_Observer.h */,
+				1F111C8F19BF611400175FD8 /* Observer_Observer.m */,
+				1F111C9219BF617F00175FD8 /* Observer_ConcreteObserver.h */,
+				1F111C9319BF617F00175FD8 /* Observer_ConcreteObserver.m */,
+				1F111C9619BF61B500175FD8 /* Observer_Subject.h */,
+				1F111C9719BF61B500175FD8 /* Observer_Subject.m */,
+				1F111C9A19BF62A900175FD8 /* Observer_ConcreteSubject.h */,
+				1F111C9B19BF62A900175FD8 /* Observer_ConcreteSubject.m */,
+				1F111C9E19BF647100175FD8 /* Observer_Template_TestCase.h */,
+				1F111C9F19BF647100175FD8 /* Observer_Template_TestCase.m */,
+			);
+			path = CodeTemplate2;
+			sourceTree = "<group>";
+		};
 		1FBF62C519B63D0F001C34B8 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
@@ -901,6 +938,7 @@
 			isa = PBXGroup;
 			children = (
 				6FF75E8819B7397B0049AEBA /* CodeTemplate */,
+				1F111C8D19BF60E300175FD8 /* CodeTemplate2 */,
 				1FBF630B19B63D0F001C34B8 /* CurrentConditionsDisplay.h */,
 				1FBF630C19B63D0F001C34B8 /* CurrentConditionsDisplay.m */,
 				1FBF630D19B63D0F001C34B8 /* DisplayElement.h */,
@@ -1362,6 +1400,7 @@
 				6FB4E3D7199A443800F2F8AF /* AppDelegate.m in Sources */,
 				1FBF635419B63D0F001C34B8 /* Adapter.m in Sources */,
 				1F6CD56619BA271900C1CF84 /* ConcreteImplementorA.m in Sources */,
+				1F111C9419BF617F00175FD8 /* Observer_ConcreteObserver.m in Sources */,
 				1F1BCBB319BDF3F00060C231 /* ConcreteBuilder2.m in Sources */,
 				1F5B478C19BF5CE30046F510 /* Strategy_ConcreteStrategyA.m in Sources */,
 				1FBF639A19B63D0F001C34B8 /* Quack.m in Sources */,
@@ -1374,12 +1413,14 @@
 				1FBF637C19B63D0F001C34B8 /* WeatherData.m in Sources */,
 				1FBF636419B63D0F001C34B8 /* Milk.m in Sources */,
 				1F5B476219BF5A560046F510 /* TestCase.m in Sources */,
+				1F111C9019BF611400175FD8 /* Observer_Observer.m in Sources */,
 				1FD91E8D19BB981D00FBBDD5 /* Facade.m in Sources */,
 				1FD91E9D19BB987100FBBDD5 /* SubSystemFour.m in Sources */,
 				1F1BCBA719BDF1580060C231 /* Builder.m in Sources */,
 				1F5C0D7A19B8E21D00AC2872 /* AbstractProductA.m in Sources */,
 				1FBF63A219B63D0F001C34B8 /* AbstractClass_TemplateMethod.m in Sources */,
 				1FBF635819B63D0F001C34B8 /* Beverage.m in Sources */,
+				1F111CA019BF647100175FD8 /* Observer_Template_TestCase.m in Sources */,
 				1FBF637E19B63D0F001C34B8 /* WeatherStation.m in Sources */,
 				1FBF637A19B63D0F001C34B8 /* StatisticsDisplay.m in Sources */,
 				1FD91E9919BB986500FBBDD5 /* SubSystemThree.m in Sources */,
@@ -1391,6 +1432,7 @@
 				1FBF638219B63D0F001C34B8 /* Singleton.m in Sources */,
 				1F5C0D9E19B8E70700AC2872 /* AbstractFactory_Template_TestCase.m in Sources */,
 				1F5B474A19BF58760046F510 /* FactoryMethod_ConcreteProductB.m in Sources */,
+				1F111C9819BF61B500175FD8 /* Observer_Subject.m in Sources */,
 				1F1BCBBB19BDF57B0060C231 /* Builder_Template_TestCase.m in Sources */,
 				1F6CD55A19BA25FF00C1CF84 /* Abstraction.m in Sources */,
 				1FBF638A19B63D0F001C34B8 /* FakeQuack.m in Sources */,
@@ -1410,6 +1452,7 @@
 				1F5B473219BF540A0046F510 /* ConcreteDecoratorA.m in Sources */,
 				1F6CD58219BA375000C1CF84 /* Invoker.m in Sources */,
 				1FBF638019B63D0F001C34B8 /* WeatherStationHeatIndex.m in Sources */,
+				1F111C9C19BF62A900175FD8 /* Observer_ConcreteSubject.m in Sources */,
 				6FCEB87619B84C0F007E6FA9 /* ConcreteHandler3.m in Sources */,
 				1F5B479619BF5CE30046F510 /* Strategy_Template_TestCase.m in Sources */,
 				1FBF638619B63D0F001C34B8 /* DecoyDuck.m in Sources */,
@@ -1467,6 +1510,7 @@
 				1F6CD57319BA36CA00C1CF84 /* Command.m in Sources */,
 				1F5B474B19BF58760046F510 /* FactoryMethod_ConcreteProductB.m in Sources */,
 				1FBF639119B63D0F001C34B8 /* FlyWithWings.m in Sources */,
+				1F111C9519BF617F00175FD8 /* Observer_ConcreteObserver.m in Sources */,
 				1FBF636F19B63D0F001C34B8 /* Component.cpp in Sources */,
 				1FBF639919B63D0F001C34B8 /* MuteQuack.m in Sources */,
 				1FBF638D19B63D0F001C34B8 /* FlyNoWay.m in Sources */,
@@ -1483,11 +1527,14 @@
 				1F5B473B19BF542F0046F510 /* Decorator.m in Sources */,
 				1FBF639319B63D0F001C34B8 /* MallardDuck.m in Sources */,
 				1FBF638719B63D0F001C34B8 /* DecoyDuck.m in Sources */,
+				1F111C9D19BF62A900175FD8 /* Observer_ConcreteSubject.m in Sources */,
+				1F111C9119BF611400175FD8 /* Observer_Observer.m in Sources */,
 				1FBF639519B63D0F001C34B8 /* MiniDuckSimulator.m in Sources */,
 				1FBF638919B63D0F001C34B8 /* Duck.m in Sources */,
 				1FBF636319B63D0F001C34B8 /* HouseBlend.m in Sources */,
 				1F1BCBB819BDF5100060C231 /* Director.m in Sources */,
 				1FBF635D19B63D0F001C34B8 /* DarkRoast.m in Sources */,
+				1F111CA119BF647100175FD8 /* Observer_Template_TestCase.m in Sources */,
 				1F5C0D9319B8E4E100AC2872 /* Client.m in Sources */,
 				1F5B473719BF54130046F510 /* ConcreteDecoratorB.m in Sources */,
 				1F5C0D8F19B8E4A300AC2872 /* ProductB2.m in Sources */,
@@ -1513,6 +1560,7 @@
 				1F6CD57B19BA370300C1CF84 /* Receiver.m in Sources */,
 				1F6CD58B19BA399E00C1CF84 /* Command_Template_TestCase.m in Sources */,
 				1F6CD58319BA375000C1CF84 /* Invoker.m in Sources */,
+				1F111C9919BF61B500175FD8 /* Observer_Subject.m in Sources */,
 				1FBF639F19B63D0F001C34B8 /* RubberDuck.m in Sources */,
 				1F6CD56319BA26E200C1CF84 /* RefinedAbstraction.m in Sources */,
 				1F5B473F19BF55EC0046F510 /* Decorator_Template_TestCase.m in Sources */,

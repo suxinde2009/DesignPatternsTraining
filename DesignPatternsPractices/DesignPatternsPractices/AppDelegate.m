@@ -43,6 +43,8 @@
 
 #import "Strategy_Template_TestCase.h"
 
+#import "Observer_Template_TestCase.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -53,11 +55,12 @@
     
     // 策略模式
 //    [MiniDuckSimulator mainTest];
-    [Strategy_Template_TestCase mainTest];
+//    [Strategy_Template_TestCase mainTest];
     
     // 观察者模式
 //    [WeatherStation mainTest];
 //    [WeatherStationHeatIndex mainTest];
+    [Observer_Template_TestCase mainTest];
     
     // 装饰者模式
 //    [StarbuzzCoffee mainTest];
