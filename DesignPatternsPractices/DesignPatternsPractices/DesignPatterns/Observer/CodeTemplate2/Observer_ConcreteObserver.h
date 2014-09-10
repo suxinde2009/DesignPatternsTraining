@@ -14,11 +14,13 @@
 @private
     NSString *mName;
     NSString *mObserverState;
-    Observer_ConcreteSubject *mSubject;
+    //Observer_ConcreteSubject *mSubject;
 }
 
-- (id)initWithSubject:(Observer_ConcreteSubject *)subject
-                 name:(NSString *)name;
+//- (id)initWithSubject:(Observer_ConcreteSubject *)subject
+//                 name:(NSString *)name;
 
+
+- (id)initWithName:(NSString *)name;
 
 @end

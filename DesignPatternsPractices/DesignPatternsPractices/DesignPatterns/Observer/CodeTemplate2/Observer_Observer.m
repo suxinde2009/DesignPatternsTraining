@@ -11,5 +11,5 @@
 @implementation Observer_Observer
 
 - (void)update {}
-
+- (void)update:(id)object {}
 @end

@@ -42,7 +42,8 @@
 - (void)notify
 {
     for (Observer_Observer *o in mObservers) {
-        [o update];
+        //[o update];
+        [o update:self];
     }
 
 }

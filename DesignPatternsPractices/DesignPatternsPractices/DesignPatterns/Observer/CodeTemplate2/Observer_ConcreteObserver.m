@@ -12,27 +12,41 @@
 
 - (void)dealloc
 {
-    [mSubject release];
+    //[mSubject release];
     [mName release];
     
     [super dealloc];
 }
 
-- (id)initWithSubject:(Observer_ConcreteSubject *)subject
-                 name:(NSString *)name
+- (id)initWithName:(NSString *)name
 {
     if (self = [super init]) {
-        mSubject = [subject retain];
         mName = [name retain];
     }
     return self;
 }
 
-- (void)update
-{
-    mObserverState = mSubject.subjectState;
-    NSLog(@"Observer %@'s new state is %@", mName, mObserverState);
-}
+//- (id)initWithSubject:(Observer_ConcreteSubject *)subject
+//                 name:(NSString *)name
+//{
+//    if (self = [super init]) {
+//        mSubject = [subject retain];
+//        mName = [name retain];
+//    }
+//    return self;
+//}
 
+//- (void)update
+//{
+//    mObserverState = mSubject.subjectState;
+//    NSLog(@"Observer %@'s new state is %@", mName, mObserverState);
+//}
+
+
+- (void)update:(id)object
+{
+    NSString *state = ((Observer_ConcreteSubject *)object).subjectState;
+    NSLog(@"Observer %@'s new state is %@", mName, state);
+}
 
 @end

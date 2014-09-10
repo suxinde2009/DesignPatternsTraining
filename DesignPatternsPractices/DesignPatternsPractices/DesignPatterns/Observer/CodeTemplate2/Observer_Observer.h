@@ -11,5 +11,6 @@
 @interface Observer_Observer : NSObject
 
 - (void)update;
+- (void)update:(id)object;
 
 @end
