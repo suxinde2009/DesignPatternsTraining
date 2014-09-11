@@ -227,6 +227,12 @@
 		6F43221A19BEC1390017A985 /* Leaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F43221819BEC1390017A985 /* Leaf.m */; };
 		6F43221D19BEC1A40017A985 /* Composite_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F43221C19BEC1A40017A985 /* Composite_Template_TestCase.m */; };
 		6F43221E19BEC1A40017A985 /* Composite_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F43221C19BEC1A40017A985 /* Composite_Template_TestCase.m */; };
+		6F6FF9CF19C184F400EA84ED /* State_Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6FF9C819C184F400EA84ED /* State_Context.m */; };
+		6F6FF9D019C184F400EA84ED /* State_Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6FF9C819C184F400EA84ED /* State_Context.m */; };
+		6F6FF9D119C184F400EA84ED /* State_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6FF9CA19C184F400EA84ED /* State_Template_TestCase.m */; };
+		6F6FF9D219C184F400EA84ED /* State_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6FF9CA19C184F400EA84ED /* State_Template_TestCase.m */; };
+		6F6FF9D519C185E400EA84ED /* State_ConcreteState.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6FF9D419C185E400EA84ED /* State_ConcreteState.m */; };
+		6F6FF9D619C185E400EA84ED /* State_ConcreteState.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6FF9D419C185E400EA84ED /* State_ConcreteState.m */; };
 		6FB4E3C7199A443800F2F8AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB4E3C6199A443800F2F8AF /* Foundation.framework */; };
 		6FB4E3C9199A443800F2F8AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB4E3C8199A443800F2F8AF /* CoreGraphics.framework */; };
 		6FB4E3CB199A443800F2F8AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB4E3CA199A443800F2F8AF /* UIKit.framework */; };
@@ -493,6 +499,12 @@
 		6F43221819BEC1390017A985 /* Leaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leaf.m; sourceTree = "<group>"; };
 		6F43221B19BEC1A40017A985 /* Composite_Template_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Composite_Template_TestCase.h; sourceTree = "<group>"; };
 		6F43221C19BEC1A40017A985 /* Composite_Template_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Composite_Template_TestCase.m; sourceTree = "<group>"; };
+		6F6FF9C719C184F400EA84ED /* State_Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State_Context.h; sourceTree = "<group>"; };
+		6F6FF9C819C184F400EA84ED /* State_Context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = State_Context.m; sourceTree = "<group>"; };
+		6F6FF9C919C184F400EA84ED /* State_Template_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State_Template_TestCase.h; sourceTree = "<group>"; };
+		6F6FF9CA19C184F400EA84ED /* State_Template_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = State_Template_TestCase.m; sourceTree = "<group>"; };
+		6F6FF9D319C185E400EA84ED /* State_ConcreteState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State_ConcreteState.h; sourceTree = "<group>"; };
+		6F6FF9D419C185E400EA84ED /* State_ConcreteState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = State_ConcreteState.m; sourceTree = "<group>"; };
 		6FB4E3C3199A443800F2F8AF /* DesignPatternsPractices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatternsPractices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB4E3C6199A443800F2F8AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6FB4E3C8199A443800F2F8AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -1017,21 +1029,6 @@
 			path = CodeTemplate;
 			sourceTree = "<group>";
 		};
-		1FBF632619B63D0F001C34B8 /* State */ = {
-			isa = PBXGroup;
-			children = (
-				1FBF632719B63D0F001C34B8 /* CodeTemplate */,
-			);
-			path = State;
-			sourceTree = "<group>";
-		};
-		1FBF632719B63D0F001C34B8 /* CodeTemplate */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CodeTemplate;
-			sourceTree = "<group>";
-		};
 		1FBF632819B63D0F001C34B8 /* Strategy */ = {
 			isa = PBXGroup;
 			children = (
@@ -1125,6 +1122,27 @@
 			path = CodeTemplate;
 			sourceTree = "<group>";
 		};
+		6F6FF9C119C184F400EA84ED /* State */ = {
+			isa = PBXGroup;
+			children = (
+				6F6FF9C219C184F400EA84ED /* CodeTemplate */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		6F6FF9C219C184F400EA84ED /* CodeTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				6F6FF9D319C185E400EA84ED /* State_ConcreteState.h */,
+				6F6FF9D419C185E400EA84ED /* State_ConcreteState.m */,
+				6F6FF9C719C184F400EA84ED /* State_Context.h */,
+				6F6FF9C819C184F400EA84ED /* State_Context.m */,
+				6F6FF9C919C184F400EA84ED /* State_Template_TestCase.h */,
+				6F6FF9CA19C184F400EA84ED /* State_Template_TestCase.m */,
+			);
+			path = CodeTemplate;
+			sourceTree = "<group>";
+		};
 		6FB4E3BA199A443800F2F8AF = {
 			isa = PBXGroup;
 			children = (
@@ -1205,6 +1223,12 @@
 				6FCCB917199C5AE3006B59DE /* TestCaseInterface.h */,
 				1F5B476019BF5A560046F510 /* TestCase.h */,
 				1F5B476119BF5A560046F510 /* TestCase.m */,
+				6F6FF9C119C184F400EA84ED /* State */,
+				1FBF634819B63D0F001C34B8 /* TemplateMethod */,
+				1FBF632019B63D0F001C34B8 /* Singleton */,
+				1FBF632819B63D0F001C34B8 /* Strategy */,
+				1FBF631E19B63D0F001C34B8 /* Proxy */,
+				1FBF630919B63D0F001C34B8 /* Observer */,
 				6FCEB85019B846F8007E6FA9 /* ChainOfResponsibility */,
 				1FBF62C519B63D0F001C34B8 /* AbstractFactory */,
 				1FBF62C719B63D0F001C34B8 /* Adapter */,
@@ -1221,13 +1245,7 @@
 				1FBF630319B63D0F001C34B8 /* Iterator */,
 				1FBF630519B63D0F001C34B8 /* Mediator */,
 				1FBF630719B63D0F001C34B8 /* Memento */,
-				1FBF630919B63D0F001C34B8 /* Observer */,
 				1FBF631C19B63D0F001C34B8 /* Prototype */,
-				1FBF631E19B63D0F001C34B8 /* Proxy */,
-				1FBF632019B63D0F001C34B8 /* Singleton */,
-				1FBF632619B63D0F001C34B8 /* State */,
-				1FBF632819B63D0F001C34B8 /* Strategy */,
-				1FBF634819B63D0F001C34B8 /* TemplateMethod */,
 				1FBF635019B63D0F001C34B8 /* Visitor */,
 			);
 			path = DesignPatterns;
@@ -1462,6 +1480,7 @@
 				1FBF635E19B63D0F001C34B8 /* Decaf.m in Sources */,
 				1F5C0D8E19B8E4A300AC2872 /* ProductB2.m in Sources */,
 				1F5C0D9A19B8E6AF00AC2872 /* ConcreteFactory2.m in Sources */,
+				6F6FF9D519C185E400EA84ED /* State_ConcreteState.m in Sources */,
 				6F43221519BEC0420017A985 /* Composite.m in Sources */,
 				1FBF638419B63D0F001C34B8 /* Singleton_TestCase.m in Sources */,
 				1F6CD55E19BA261500C1CF84 /* Implementor.m in Sources */,
@@ -1470,11 +1489,13 @@
 				6F43221919BEC1390017A985 /* Leaf.m in Sources */,
 				1F5B479419BF5CE30046F510 /* Strategy_Strategy.m in Sources */,
 				1FBF635A19B63D0F001C34B8 /* CondimentDecorator.m in Sources */,
+				6F6FF9D119C184F400EA84ED /* State_Template_TestCase.m in Sources */,
 				6FCEB87219B84C0F007E6FA9 /* ConcreteHandler1.m in Sources */,
 				6FB4E3D3199A443800F2F8AF /* main.m in Sources */,
 				1FBF636E19B63D0F001C34B8 /* Component.cpp in Sources */,
 				6FCEB87419B84C0F007E6FA9 /* ConcreteHandler2.m in Sources */,
 				1FBF639C19B63D0F001C34B8 /* RedHeadDuck.m in Sources */,
+				6F6FF9CF19C184F400EA84ED /* State_Context.m in Sources */,
 				1F5B473E19BF55EC0046F510 /* Decorator_Template_TestCase.m in Sources */,
 				1FBF636619B63D0F001C34B8 /* Mocha.m in Sources */,
 				1F5B475619BF58C00046F510 /* FactoryMethod_CreatorA.m in Sources */,
@@ -1488,6 +1509,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6FF9D619C185E400EA84ED /* State_ConcreteState.m in Sources */,
 				1FD91EAE19BBA02D00FBBDD5 /* Proxy.m in Sources */,
 				6FCEB87119B84C0F007E6FA9 /* ChainOfResponsibility_Template_TestCase.m in Sources */,
 				1FBF63AB19B63DB1001C34B8 /* AbstractFactory.m in Sources */,
@@ -1562,6 +1584,7 @@
 				1F6CD58319BA375000C1CF84 /* Invoker.m in Sources */,
 				1F111C9919BF61B500175FD8 /* Observer_Subject.m in Sources */,
 				1FBF639F19B63D0F001C34B8 /* RubberDuck.m in Sources */,
+				6F6FF9D219C184F400EA84ED /* State_Template_TestCase.m in Sources */,
 				1F6CD56319BA26E200C1CF84 /* RefinedAbstraction.m in Sources */,
 				1F5B473F19BF55EC0046F510 /* Decorator_Template_TestCase.m in Sources */,
 				6FCEB87919B84C0F007E6FA9 /* Handler.m in Sources */,
@@ -1605,6 +1628,7 @@
 				1F5B475719BF58C00046F510 /* FactoryMethod_CreatorA.m in Sources */,
 				6FCEB87319B84C0F007E6FA9 /* ConcreteHandler1.m in Sources */,
 				6FCEB87719B84C0F007E6FA9 /* ConcreteHandler3.m in Sources */,
+				6F6FF9D019C184F400EA84ED /* State_Context.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

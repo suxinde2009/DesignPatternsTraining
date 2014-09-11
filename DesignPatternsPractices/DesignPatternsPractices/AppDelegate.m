@@ -45,6 +45,8 @@
 
 #import "Observer_Template_TestCase.h"
 
+#import "State_Template_TestCase.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -60,7 +62,7 @@
     // 观察者模式
 //    [WeatherStation mainTest];
 //    [WeatherStationHeatIndex mainTest];
-    [Observer_Template_TestCase mainTest];
+//    [Observer_Template_TestCase mainTest];
     
     // 装饰者模式
 //    [StarbuzzCoffee mainTest];
@@ -100,7 +102,8 @@
     // 组合模式
 //    [Composite_Template_TestCase mainTest];
     
-    //
+    // 状态模式
+    [State_Template_TestCase mainTest];
     
     [self.window makeKeyAndVisible];
     return YES;
