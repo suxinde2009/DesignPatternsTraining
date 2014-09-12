@@ -47,6 +47,8 @@
 
 #import "State_Template_TestCase.h"
 
+#import "Flyweight_Template_TestCase.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -103,7 +105,10 @@
 //    [Composite_Template_TestCase mainTest];
     
     // 状态模式
-    [State_Template_TestCase mainTest];
+//    [State_Template_TestCase mainTest];
+    
+    // 享元模式
+    [Flyweight_Template_TestCase mainTest];
     
     [self.window makeKeyAndVisible];
     return YES;
