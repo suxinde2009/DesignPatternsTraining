@@ -119,4 +119,4 @@ Personal scribble demos while learning design patterns.
 
 ![image1](https://raw.github.com/suxinde2009/DesignPatterns_iOS/master/Graphs/UML-Flyweight.PNG)
 
-<br/>  除了以上23个模式之外，根据《java与模式》中的分类，还有4种模式，DefaultAdapter 缺省适配器模式，SimpleFactory 简单工厂模式，Multiton 多例模式, Immutable 不变模式下面我来说说怎么阅读每个模式，每个文件中的Test.java是该模式的测试类，上面的注解详细描述了该模式的具体介绍和优缺点等等，该包中的其他文件就是一些接口或抽象类等该模式所需要的类，要理解每个模式的思想，要把该包中的几个联系着一起看，为了避免太乱，就分开写了。
+<br/>  除了以上23个模式之外，根据《java与模式》中的分类，还有4种模式，DefaultAdapter 缺省适配器模式，SimpleFactory 简单工厂模式，Multiton 多例模式, Immutable 不变模式。
