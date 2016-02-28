@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F66C7361C83393200461637 /* FactoryMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F66C7351C83393200461637 /* FactoryMethod.m */; };
+		1F66C7381C83393C00461637 /* FactoryMethod.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F66C7371C83393C00461637 /* FactoryMethod.png */; };
 		622CC9401C7F6E0700836695 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 622CC93F1C7F6E0700836695 /* main.m */; };
 		622CC9431C7F6E0700836695 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 622CC9421C7F6E0700836695 /* AppDelegate.m */; };
 		622CC9461C7F6E0700836695 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 622CC9451C7F6E0700836695 /* ViewController.m */; };
@@ -20,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F66C7341C83393200461637 /* FactoryMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMethod.h; sourceTree = "<group>"; };
+		1F66C7351C83393200461637 /* FactoryMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMethod.m; sourceTree = "<group>"; };
+		1F66C7371C83393C00461637 /* FactoryMethod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FactoryMethod.png; sourceTree = "<group>"; };
 		622CC93B1C7F6E0700836695 /* GOF_DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOF_DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		622CC93F1C7F6E0700836695 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		622CC9411C7F6E0700836695 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,6 +54,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F66C7331C8338F700461637 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				1F66C7341C83393200461637 /* FactoryMethod.h */,
+				1F66C7351C83393200461637 /* FactoryMethod.m */,
+				1F66C7371C83393C00461637 /* FactoryMethod.png */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
 		622CC9321C7F6E0700836695 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +116,7 @@
 		622CC9561C7F6ECC00836695 /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				1F66C7331C8338F700461637 /* FactoryMethod */,
 				622CC95D1C7F6F8200836695 /* Builder */,
 				622CC9571C7F6ECC00836695 /* AbstractFactory */,
 			);
@@ -187,6 +203,7 @@
 				622CC94E1C7F6E0700836695 /* LaunchScreen.storyboard in Resources */,
 				622CC95F1C7F6F8200836695 /* Builder.png in Resources */,
 				622CC94B1C7F6E0700836695 /* Assets.xcassets in Resources */,
+				1F66C7381C83393C00461637 /* FactoryMethod.png in Resources */,
 				622CC9591C7F6ECC00836695 /* AbstractFactory.png in Resources */,
 				622CC9491C7F6E0700836695 /* Main.storyboard in Resources */,
 			);
@@ -204,6 +221,7 @@
 				622CC9431C7F6E0700836695 /* AppDelegate.m in Sources */,
 				622CC9621C7F6F9400836695 /* Builder.m in Sources */,
 				622CC9401C7F6E0700836695 /* main.m in Sources */,
+				1F66C7361C83393200461637 /* FactoryMethod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +370,7 @@
 				622CC9541C7F6E0700836695 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
