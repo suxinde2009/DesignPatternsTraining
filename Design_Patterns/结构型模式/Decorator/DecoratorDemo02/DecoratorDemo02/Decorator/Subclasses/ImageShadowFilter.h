@@ -9,7 +9,7 @@
 #import "ImageFilter.h"
 
 @interface ImageShadowFilter : ImageFilter
-
+{}
 - (void) apply;
 
 @end

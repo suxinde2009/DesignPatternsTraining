@@ -51,7 +51,7 @@
                                                                                      transform:finalTransform];
     
     
-    id<ImageComponent> finalImage = [[ImageTransformFilter alloc] initWithImageComponent:transformedImage];
+    id<ImageComponent> finalImage = [[ImageShadowFilter alloc] initWithImageComponent:transformedImage];
     
     
     // create a new image view

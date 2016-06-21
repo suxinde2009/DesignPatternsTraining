@@ -15,8 +15,8 @@
 }
 @property (nonatomic, assign) CGAffineTransform transform;
 
-- (instancetype)initWithImageComponent:(id<ImageComponent>)component
-                             transform:(CGAffineTransform)transform;
+- (id)initWithImageComponent:(id<ImageComponent>)component
+                   transform:(CGAffineTransform)transform;
 
 - (void)apply;
 

@@ -19,7 +19,7 @@
 
 - (void)apply;
 
-- (instancetype)initWithImageComponent:(id<ImageComponent>)component;
+- (id)initWithImageComponent:(id<ImageComponent>)component;
 
 - (id)forwardingTargetForSelector:(SEL)aSelector;
 

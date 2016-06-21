@@ -12,8 +12,8 @@
 
 @synthesize transform=mTransform;
 
-- (instancetype)initWithImageComponent:(id<ImageComponent>)component
-                             transform:(CGAffineTransform)transform
+- (id)initWithImageComponent:(id<ImageComponent>)component
+                   transform:(CGAffineTransform)transform
 {
     if (self = [super initWithImageComponent:component]) {
         [self setTransform: transform];

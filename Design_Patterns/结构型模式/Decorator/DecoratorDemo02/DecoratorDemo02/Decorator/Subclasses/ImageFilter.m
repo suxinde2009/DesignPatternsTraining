@@ -10,6 +10,8 @@
 
 @implementation ImageFilter
 
+@synthesize component = mComponent;
+
 - (id)initWithImageComponent:(id<ImageComponent>)component
 {
     if (self = [super init]) {
