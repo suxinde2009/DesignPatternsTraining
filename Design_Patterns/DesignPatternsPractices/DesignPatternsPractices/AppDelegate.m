@@ -26,6 +26,7 @@
 #import "ChainOfResponsibility_Template_TestCase.h"
 
 #import "AbstractFactory_Template_TestCase.h"
+#import "AbstractFactoryDemo01_TestCase.h"
 
 #import "Bridge_Template_TestCase.h"
 
@@ -54,7 +55,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    self.window.rootViewController = [UIViewController new];
     self.window.backgroundColor = [UIColor whiteColor];
     
     // 策略模式
@@ -85,6 +86,7 @@
     
     // 抽象工厂模式
 //    [AbstractFactory_Template_TestCase mainTest];
+//    [AbstractFactoryDemo01_TestCase mainTest];
     
     // 桥接模式
 //    [Bridge_Template_TestCase mainTest];
