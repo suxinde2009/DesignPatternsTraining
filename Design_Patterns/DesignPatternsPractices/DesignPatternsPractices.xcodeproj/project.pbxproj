@@ -29,6 +29,11 @@
 		1F1BCBB819BDF5100060C231 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBB619BDF5100060C231 /* Director.m */; };
 		1F1BCBBB19BDF57B0060C231 /* Builder_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBBA19BDF57B0060C231 /* Builder_Template_TestCase.m */; };
 		1F1BCBBC19BDF57B0060C231 /* Builder_Template_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BCBBA19BDF57B0060C231 /* Builder_Template_TestCase.m */; };
+		1F37102221482BCE004D990D /* FactoryBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F37102121482BCE004D990D /* FactoryBase.m */; };
+		1F37102821482C28004D990D /* CpuBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F37102721482C28004D990D /* CpuBase.m */; };
+		1F37102C21482DFB004D990D /* MainBoardBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F37102B21482DFB004D990D /* MainBoardBase.m */; };
+		1F37102F21482F5A004D990D /* ComputerEngineer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F37102E21482F5A004D990D /* ComputerEngineer.m */; };
+		1F37103221482FF1004D990D /* AbstractFactoryDemo01_TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F37103121482FF1004D990D /* AbstractFactoryDemo01_TestCase.m */; };
 		1F5B472A19BF53D90046F510 /* Decorator_Component.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B472919BF53D90046F510 /* Decorator_Component.m */; };
 		1F5B472B19BF53D90046F510 /* Decorator_Component.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B472919BF53D90046F510 /* Decorator_Component.m */; };
 		1F5B472E19BF53F20046F510 /* Decorator_ConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B472D19BF53F20046F510 /* Decorator_ConcreteComponent.m */; };
@@ -307,6 +312,16 @@
 		1F1BCBB619BDF5100060C231 /* Director.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
 		1F1BCBB919BDF57B0060C231 /* Builder_Template_TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Builder_Template_TestCase.h; sourceTree = "<group>"; };
 		1F1BCBBA19BDF57B0060C231 /* Builder_Template_TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Builder_Template_TestCase.m; sourceTree = "<group>"; };
+		1F37102021482BCE004D990D /* FactoryBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryBase.h; sourceTree = "<group>"; };
+		1F37102121482BCE004D990D /* FactoryBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryBase.m; sourceTree = "<group>"; };
+		1F37102621482C28004D990D /* CpuBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CpuBase.h; sourceTree = "<group>"; };
+		1F37102721482C28004D990D /* CpuBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CpuBase.m; sourceTree = "<group>"; };
+		1F37102A21482DFB004D990D /* MainBoardBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainBoardBase.h; sourceTree = "<group>"; };
+		1F37102B21482DFB004D990D /* MainBoardBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainBoardBase.m; sourceTree = "<group>"; };
+		1F37102D21482F5A004D990D /* ComputerEngineer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerEngineer.h; sourceTree = "<group>"; };
+		1F37102E21482F5A004D990D /* ComputerEngineer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComputerEngineer.m; sourceTree = "<group>"; };
+		1F37103021482FF1004D990D /* AbstractFactoryDemo01_TestCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactoryDemo01_TestCase.h; sourceTree = "<group>"; };
+		1F37103121482FF1004D990D /* AbstractFactoryDemo01_TestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryDemo01_TestCase.m; sourceTree = "<group>"; };
 		1F5B472819BF53D90046F510 /* Decorator_Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator_Component.h; sourceTree = "<group>"; };
 		1F5B472919BF53D90046F510 /* Decorator_Component.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decorator_Component.m; sourceTree = "<group>"; };
 		1F5B472C19BF53F20046F510 /* Decorator_ConcreteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator_ConcreteComponent.h; sourceTree = "<group>"; };
@@ -613,6 +628,55 @@
 			path = CodeTemplate2;
 			sourceTree = "<group>";
 		};
+		1F37101F21482BA8004D990D /* AbstractFactoryPatternDemo01 */ = {
+			isa = PBXGroup;
+			children = (
+				1F37102921482CF4004D990D /* MainBoardModels */,
+				1F37102521482C0B004D990D /* EngineerModels */,
+				1F37102421482BFC004D990D /* FactoryModels */,
+				1F37102321482BF2004D990D /* CpuModels */,
+				1F37103021482FF1004D990D /* AbstractFactoryDemo01_TestCase.h */,
+				1F37103121482FF1004D990D /* AbstractFactoryDemo01_TestCase.m */,
+			);
+			path = AbstractFactoryPatternDemo01;
+			sourceTree = "<group>";
+		};
+		1F37102321482BF2004D990D /* CpuModels */ = {
+			isa = PBXGroup;
+			children = (
+				1F37102621482C28004D990D /* CpuBase.h */,
+				1F37102721482C28004D990D /* CpuBase.m */,
+			);
+			path = CpuModels;
+			sourceTree = "<group>";
+		};
+		1F37102421482BFC004D990D /* FactoryModels */ = {
+			isa = PBXGroup;
+			children = (
+				1F37102021482BCE004D990D /* FactoryBase.h */,
+				1F37102121482BCE004D990D /* FactoryBase.m */,
+			);
+			path = FactoryModels;
+			sourceTree = "<group>";
+		};
+		1F37102521482C0B004D990D /* EngineerModels */ = {
+			isa = PBXGroup;
+			children = (
+				1F37102D21482F5A004D990D /* ComputerEngineer.h */,
+				1F37102E21482F5A004D990D /* ComputerEngineer.m */,
+			);
+			path = EngineerModels;
+			sourceTree = "<group>";
+		};
+		1F37102921482CF4004D990D /* MainBoardModels */ = {
+			isa = PBXGroup;
+			children = (
+				1F37102A21482DFB004D990D /* MainBoardBase.h */,
+				1F37102B21482DFB004D990D /* MainBoardBase.m */,
+			);
+			path = MainBoardModels;
+			sourceTree = "<group>";
+		};
 		1F67D7232145759700614251 /* Demo1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -707,6 +771,7 @@
 			isa = PBXGroup;
 			children = (
 				1FBF62C619B63D0F001C34B8 /* CodeTemplate */,
+				1F37101F21482BA8004D990D /* AbstractFactoryPatternDemo01 */,
 			);
 			path = AbstractFactory;
 			sourceTree = "<group>";
@@ -1413,6 +1478,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Su XinDe";
 				TargetAttributes = {
+					6FB4E3C2199A443800F2F8AF = {
+						DevelopmentTeam = NZ7ATV9HL2;
+					};
 					6FB4E3DD199A443800F2F8AF = {
 						TestTargetID = 6FB4E3C2199A443800F2F8AF;
 					};
@@ -1525,11 +1593,13 @@
 				1FBF636819B63D0F001C34B8 /* Soy.m in Sources */,
 				1F6CD57219BA36CA00C1CF84 /* Command.m in Sources */,
 				1F6CD58A19BA399E00C1CF84 /* Command_Template_TestCase.m in Sources */,
+				1F37102C21482DFB004D990D /* MainBoardBase.m in Sources */,
 				1F5C0D7E19B8E22B00AC2872 /* AbstractProductB.m in Sources */,
 				1FBF63A419B63D0F001C34B8 /* ConcreteClass_TemplateMethod.m in Sources */,
 				1FBF637419B63D0F001C34B8 /* CurrentConditionsDisplay.m in Sources */,
 				1F1BCBAF19BDF3E20060C231 /* ConcreteBuilder1.m in Sources */,
 				1F5B474219BF583D0046F510 /* FactoryMethod_Product.m in Sources */,
+				1F37102F21482F5A004D990D /* ComputerEngineer.m in Sources */,
 				1F5B479019BF5CE30046F510 /* Strategy_ConcreteStrategyC.m in Sources */,
 				1F5B474619BF585F0046F510 /* FactoryMethod_ConcreteProductA.m in Sources */,
 				1FBF637819B63D0F001C34B8 /* HeatIndexDisplay.m in Sources */,
@@ -1571,6 +1641,7 @@
 				1FBF638219B63D0F001C34B8 /* Singleton.m in Sources */,
 				1F5C0D9E19B8E70700AC2872 /* AbstractFactory_Template_TestCase.m in Sources */,
 				1F5B474A19BF58760046F510 /* FactoryMethod_ConcreteProductB.m in Sources */,
+				1F37102821482C28004D990D /* CpuBase.m in Sources */,
 				1F111C9819BF61B500175FD8 /* Observer_Subject.m in Sources */,
 				1F1BCBBB19BDF57B0060C231 /* Builder_Template_TestCase.m in Sources */,
 				1F6CD55A19BA25FF00C1CF84 /* Abstraction.m in Sources */,
@@ -1594,6 +1665,7 @@
 				1F5B473219BF540A0046F510 /* ConcreteDecoratorA.m in Sources */,
 				1F6CD58219BA375000C1CF84 /* Invoker.m in Sources */,
 				1FBF638019B63D0F001C34B8 /* WeatherStationHeatIndex.m in Sources */,
+				1F37102221482BCE004D990D /* FactoryBase.m in Sources */,
 				1F111C9C19BF62A900175FD8 /* Observer_ConcreteSubject.m in Sources */,
 				6FCEB87619B84C0F007E6FA9 /* ConcreteHandler3.m in Sources */,
 				1F5B479619BF5CE30046F510 /* Strategy_Template_TestCase.m in Sources */,
@@ -1611,6 +1683,7 @@
 				1FD91EA519BB9F4400FBBDD5 /* Proxy_Subject.m in Sources */,
 				1FBF636019B63D0F001C34B8 /* Espresso.m in Sources */,
 				6F43221919BEC1390017A985 /* Leaf.m in Sources */,
+				1F37103221482FF1004D990D /* AbstractFactoryDemo01_TestCase.m in Sources */,
 				1F5B479419BF5CE30046F510 /* Strategy_Strategy.m in Sources */,
 				1FBF635A19B63D0F001C34B8 /* CondimentDecorator.m in Sources */,
 				6F6FF9D119C184F400EA84ED /* State_Template_TestCase.m in Sources */,
@@ -1823,7 +1896,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1856,7 +1929,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1873,10 +1946,12 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
+				DEVELOPMENT_TEAM = NZ7ATV9HL2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DesignPatternsPractices/DesignPatternsPractices-Prefix.pch";
 				INFOPLIST_FILE = "DesignPatternsPractices/DesignPatternsPractices-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.DesignPatternsPractices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1892,10 +1967,12 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
+				DEVELOPMENT_TEAM = NZ7ATV9HL2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DesignPatternsPractices/DesignPatternsPractices-Prefix.pch";
 				INFOPLIST_FILE = "DesignPatternsPractices/DesignPatternsPractices-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.DesignPatternsPractices;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
